@@ -1,0 +1,13 @@
+id_tienda,nombre,ciudad,region,tipo,area_m2,fecha_apertura
+1,AndinaRetail Lima Hipermercado 1,Lima,Lima,Hipermercado,6096.73,2017-03-05
+2,AndinaRetail Lima Hipermercado 2,Lima,Lima,Hipermercado,9805.94,2021-07-09
+3,AndinaRetail Lima Supermercado 3,Lima,Lima,Supermercado,1958.58,2020-06-12
+4,AndinaRetail Lima Supermercado 4,Lima,Lima,Supermercado,2823.43,2022-07-28
+5,AndinaRetail Arequipa Hipermercado 1,Arequipa,Arequipa,Hipermercado,3292.14,2017-01-31
+6,AndinaRetail Arequipa Supermercado 2,Arequipa,Arequipa,Supermercado,1794.6,2017-07-05
+7,AndinaRetail Trujillo Hipermercado 1,Trujillo,Trujillo,Hipermercado,5160.04,2018-08-11
+8,AndinaRetail Trujillo Supermercado 2,Trujillo,Trujillo,Supermercado,1890.14,2020-01-27
+9,AndinaRetail Cusco Supermercado 1,Cusco,Cusco,Supermercado,1629.23,2021-11-16
+10,AndinaRetail Cusco Supermercado 2,Cusco,Cusco,Supermercado,1036.13,2020-02-06
+11,AndinaRetail Piura Supermercado 1,Piura,Piura,Supermercado,2873.91,2020-06-07
+12,AndinaRetail Online,Piura,Piura,Virtual,48.34,2015-10-20

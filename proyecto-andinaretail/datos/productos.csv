@@ -1,0 +1,801 @@
+id_producto,nombre,categoria,subcategoria,marca,precio_lista,costo_unitario,fecha_alta
+1,Rexona Shampoo Casa,Cuidado Personal,Shampoo,Rexona,41.38,32.9,2020-03-14
+2,Sapolio Limpiadores Mil,Limpieza,Limpiadores,Sapolio,32.46,21.15,2020-03-16
+3,Pilsen Gaseosas Hijos,Bebidas,Gaseosas,Pilsen,27.68,19.2,2020-03-07
+4,Pilsen Jugos Hicieron,Bebidas,Jugos,Pilsen,17.71,11.58,2021-04-23
+5,Inca Kola Aguas Crisis,Bebidas,Aguas,Inca Kola,28.9,17.87,2022-12-29
+6,Protex Cuidado Facial Medidas,Cuidado Personal,Cuidado Facial,Protex,46.15,36.89,2021-12-08
+7,Inca Kola Energizantes Razones,Bebidas,Energizantes,Inca Kola,29.99,22.28,2020-03-26
+8,Nivea Jabón Larga,Cuidado Personal,Jabón,Nivea,41.35,26.76,2022-11-28
+9,Oster Televisores Sino,Electrohogar,Televisores,Oster,1352.13,888.86,2020-09-29
+10,Doña Clara Azúcar Violencia,Abarrotes,Azúcar,Doña Clara,15.4,9.75,2021-07-29
+11,Tondero Salsas Desarrollo,Abarrotes,Salsas,Tondero,19.8,12.22,2022-01-01
+12,Fantasía Menaje Asimismo,Hogar,Menaje,Fantasía,225.69,145.74,2022-12-08
+13,Ilko Textil Hogar Alta,Hogar,Textil Hogar,Ilko,157.39,121.3,2020-09-21
+14,Inca Kola Energizantes Oficial,Bebidas,Energizantes,Inca Kola,32.16,22.0,2020-10-24
+15,Uno Organización Habría,Hogar,Organización,Uno,178.58,122.62,2021-11-22
+16,Nicolini Salsas Salud,Abarrotes,Salsas,Nicolini,14.9,11.56,2022-04-25
+17,Inca Kola Energizantes Precio,Bebidas,Energizantes,Inca Kola,27.27,19.44,2021-09-24
+18,Pilsen Cervezas Respuesta,Bebidas,Cervezas,Pilsen,23.8,15.02,2021-06-05
+19,Ariel Trapeadores Importancia,Limpieza,Trapeadores,Ariel,25.26,17.51,2021-10-29
+20,Inca Kola Licores Oposición,Bebidas,Licores,Inca Kola,17.51,12.08,2020-08-19
+21,Poett Detergentes Deja,Limpieza,Detergentes,Poett,58.61,38.62,2022-05-21
+22,Esika Shampoo Europea,Cuidado Personal,Shampoo,Esika,46.62,30.73,2022-09-17
+23,Coca-Cola Gaseosas Plazo,Bebidas,Gaseosas,Coca-Cola,24.41,17.51,2020-10-19
+24,Sony Planchas Jefe,Electrohogar,Planchas,Sony,1550.99,1163.71,2022-10-30
+25,Nicolini Azúcar Cierta,Abarrotes,Azúcar,Nicolini,14.77,11.72,2020-11-22
+26,Uno Muebles Pequeños Volver,Hogar,Muebles Pequeños,Uno,116.84,73.51,2022-07-22
+27,Basement Muebles Pequeños Elecciones,Hogar,Muebles Pequeños,Basement,178.49,128.95,2022-12-06
+28,Nivea Jabón Julio,Cuidado Personal,Jabón,Nivea,47.23,37.5,2020-08-07
+29,Primor Aceite Padre,Abarrotes,Aceite,Primor,17.43,10.81,2020-01-05
+30,Tondero Salsas Que,Abarrotes,Salsas,Tondero,25.79,20.02,2022-06-07
+31,Esika Protección Solar Pueda,Cuidado Personal,Protección Solar,Esika,26.86,16.16,2022-08-14
+32,Basement Muebles Pequeños Eso,Hogar,Muebles Pequeños,Basement,211.52,140.72,2021-07-26
+33,Nicolini Aceite Estos,Abarrotes,Aceite,Nicolini,18.56,14.36,2021-12-06
+34,Pantene Protección Solar Tierra,Cuidado Personal,Protección Solar,Pantene,40.48,24.51,2021-04-20
+35,Costeño Azúcar Democracia,Abarrotes,Azúcar,Costeño,12.09,9.39,2020-08-17
+36,Sapolio Detergentes Mundo,Limpieza,Detergentes,Sapolio,26.13,17.63,2020-04-17
+37,Sapolio Ambientadores Visto,Limpieza,Ambientadores,Sapolio,53.63,32.89,2020-11-16
+38,Pantene Shampoo Un,Cuidado Personal,Shampoo,Pantene,54.02,42.43,2020-06-05
+39,Sapolio Desinfectantes G,Limpieza,Desinfectantes,Sapolio,39.61,24.07,2022-02-10
+40,Ariel Limpiadores Humana,Limpieza,Limpiadores,Ariel,35.35,26.11,2021-12-30
+41,Sapolio Detergentes Precisamente,Limpieza,Detergentes,Sapolio,41.54,29.23,2021-12-02
+42,San Mateo Licores Jefe,Bebidas,Licores,San Mateo,14.47,11.03,2022-02-25
+43,Poett Ambientadores Diario,Limpieza,Ambientadores,Poett,28.53,17.37,2020-01-12
+44,Inca Kola Gaseosas Varios,Bebidas,Gaseosas,Inca Kola,32.42,22.44,2021-01-17
+45,Pilsen Aguas Acuerdo,Bebidas,Aguas,Pilsen,17.9,12.59,2020-03-05
+46,Cusqueña Licores Seis,Bebidas,Licores,Cusqueña,26.86,17.36,2020-07-09
+47,Uno Decoración Problemas,Hogar,Decoración,Uno,146.64,97.16,2021-12-23
+48,Valle Arroz Persona,Abarrotes,Arroz,Valle,12.48,8.87,2021-06-23
+49,Nicolini Arroz Propios,Abarrotes,Arroz,Nicolini,16.37,11.29,2022-07-08
+50,Bosh Televisores Condiciones,Electrohogar,Televisores,Bosh,2093.49,1413.05,2022-08-16
+51,Pilsen Licores Tales,Bebidas,Licores,Pilsen,26.83,16.9,2022-06-04
+52,Poett Detergentes Hubiera,Limpieza,Detergentes,Poett,45.05,27.83,2021-11-28
+53,Ripley Home Decoración Doctor,Hogar,Decoración,Ripley Home,131.17,97.09,2020-05-16
+54,Philips Televisores Próximo,Electrohogar,Televisores,Philips,997.32,599.19,2021-06-11
+55,Sony Refrigeradoras Tomar,Electrohogar,Refrigeradoras,Sony,1918.01,1443.54,2021-08-22
+56,Ariel Trapeadores Te,Limpieza,Trapeadores,Ariel,24.47,17.89,2020-03-13
+57,Ace Trapeadores Construcción,Limpieza,Trapeadores,Ace,39.07,27.29,2021-05-04
+58,Basement Textil Hogar Empresa,Hogar,Textil Hogar,Basement,125.18,84.02,2022-08-19
+59,Coca-Cola Aguas Ella,Bebidas,Aguas,Coca-Cola,32.86,23.4,2020-11-18
+60,Magia Detergentes Civil,Limpieza,Detergentes,Magia,15.52,11.88,2021-09-19
+61,Tondero Menestras Causa,Abarrotes,Menestras,Tondero,11.27,7.64,2020-07-28
+62,Cusqueña Licores Cierto,Bebidas,Licores,Cusqueña,12.9,10.31,2022-11-18
+63,Glade Ambientadores Tierra,Limpieza,Ambientadores,Glade,35.95,21.93,2021-08-31
+64,Tondero Salsas Joven,Abarrotes,Salsas,Tondero,10.56,6.84,2021-02-16
+65,San Mateo Vinos Nuevo,Bebidas,Vinos,San Mateo,25.42,16.45,2021-01-09
+66,Pilsen Licores Pp,Bebidas,Licores,Pilsen,36.71,24.49,2022-07-20
+67,Poett Desinfectantes Sur,Limpieza,Desinfectantes,Poett,33.6,24.18,2022-10-17
+68,Sony Planchas Valores,Electrohogar,Planchas,Sony,1102.86,807.39,2020-05-06
+69,Fantasía Muebles Pequeños Corazón,Hogar,Muebles Pequeños,Fantasía,233.39,183.57,2020-12-11
+70,Coca-Cola Licores Superior,Bebidas,Licores,Coca-Cola,29.11,21.78,2021-10-14
+71,LG Refrigeradoras Trata,Electrohogar,Refrigeradoras,LG,1763.66,1224.99,2020-01-25
+72,Magia Desinfectantes Sus,Limpieza,Desinfectantes,Magia,38.05,27.78,2020-04-14
+73,Esika Protección Solar Zonas,Cuidado Personal,Protección Solar,Esika,35.6,23.21,2020-05-22
+74,Sapolio Limpiadores Fernando,Limpieza,Limpiadores,Sapolio,23.61,17.42,2020-07-14
+75,Doña Clara Azúcar Calle,Abarrotes,Azúcar,Doña Clara,7.45,5.42,2020-05-22
+76,Sapolio Detergentes Policía,Limpieza,Detergentes,Sapolio,39.3,30.4,2022-07-28
+77,Poett Detergentes Pronto,Limpieza,Detergentes,Poett,40.89,28.03,2021-03-16
+78,Fantasía Organización Haya,Hogar,Organización,Fantasía,194.8,146.79,2022-03-05
+79,Cusqueña Jugos Tres,Bebidas,Jugos,Cusqueña,32.34,19.56,2021-08-05
+80,Valle Pastas Fondo,Abarrotes,Pastas,Valle,25.28,15.75,2021-02-22
+81,Poett Ambientadores Humana,Limpieza,Ambientadores,Poett,25.93,15.88,2021-04-27
+82,Rexona Crema Dental Cantidad,Cuidado Personal,Crema Dental,Rexona,47.18,31.62,2020-07-08
+83,Pilsen Aguas Jóvenes,Bebidas,Aguas,Pilsen,40.18,26.93,2022-07-22
+84,Pilsen Aguas Diez,Bebidas,Aguas,Pilsen,20.65,16.45,2022-08-12
+85,Ariel Desinfectantes Dicen,Limpieza,Desinfectantes,Ariel,27.31,17.07,2020-09-20
+86,Uno Textil Hogar Algo,Hogar,Textil Hogar,Uno,191.95,146.53,2022-06-19
+87,Poett Desinfectantes Cultura,Limpieza,Desinfectantes,Poett,25.34,17.75,2021-08-06
+88,Valle Aceite Juego,Abarrotes,Aceite,Valle,17.22,10.45,2022-03-02
+89,Fantasía Organización Unidad,Hogar,Organización,Fantasía,87.97,68.7,2021-05-06
+90,Costeño Pastas Carrera,Abarrotes,Pastas,Costeño,12.83,9.52,2022-05-08
+91,Colgate Jabón Voluntad,Cuidado Personal,Jabón,Colgate,42.25,33.66,2022-05-14
+92,Uno Textil Hogar Debido,Hogar,Textil Hogar,Uno,94.82,57.74,2020-02-08
+93,Colgate Protección Solar Presenta,Cuidado Personal,Protección Solar,Colgate,34.88,26.02,2021-07-04
+94,Uno Organización Jefe,Hogar,Organización,Uno,97.37,75.16,2021-07-13
+95,Red Bull Jugos Quién,Bebidas,Jugos,Red Bull,26.65,19.39,2020-02-27
+96,Esika Cuidado Facial Visita,Cuidado Personal,Cuidado Facial,Esika,64.89,46.18,2020-07-06
+97,Bosh Microondas Pasar,Electrohogar,Microondas,Bosh,1282.71,999.27,2020-08-17
+98,Cusqueña Licores Nombre,Bebidas,Licores,Cusqueña,25.31,17.63,2021-10-02
+99,Poett Ambientadores Señora,Limpieza,Ambientadores,Poett,37.67,28.41,2021-07-05
+100,Red Bull Vinos Salud,Bebidas,Vinos,Red Bull,23.12,18.22,2020-01-06
+101,Red Bull Energizantes Común,Bebidas,Energizantes,Red Bull,18.33,14.01,2020-02-21
+102,Coca-Cola Energizantes Martín,Bebidas,Energizantes,Coca-Cola,27.4,21.51,2021-06-14
+103,Samsung Refrigeradoras Investigación,Electrohogar,Refrigeradoras,Samsung,1362.01,850.65,2022-03-13
+104,San Mateo Aguas Próximo,Bebidas,Aguas,San Mateo,17.23,13.55,2020-09-19
+105,Fantasía Textil Hogar Tenido,Hogar,Textil Hogar,Fantasía,155.98,117.51,2021-07-04
+106,Ripley Home Iluminación Tales,Hogar,Iluminación,Ripley Home,138.43,104.77,2020-08-07
+107,Nivea Crema Dental Sus,Cuidado Personal,Crema Dental,Nivea,69.26,53.9,2022-12-21
+108,Costeño Pastas Función,Abarrotes,Pastas,Costeño,15.88,10.8,2020-01-01
+109,Colgate Shampoo Proceso,Cuidado Personal,Shampoo,Colgate,29.86,18.46,2021-03-31
+110,Nicolini Aceite Memoria,Abarrotes,Aceite,Nicolini,12.85,9.81,2022-03-12
+111,Bosh Lavadoras Esto,Electrohogar,Lavadoras,Bosh,2627.21,1830.11,2020-01-23
+112,Protex Desodorante Aumento,Cuidado Personal,Desodorante,Protex,32.49,24.59,2022-09-24
+113,Uno Organización Mi,Hogar,Organización,Uno,129.95,85.57,2022-04-03
+114,Protex Shampoo Diversas,Cuidado Personal,Shampoo,Protex,44.59,28.15,2022-09-11
+115,Tondero Pastas Quedó,Abarrotes,Pastas,Tondero,17.74,11.01,2022-11-26
+116,Coca-Cola Gaseosas Menor,Bebidas,Gaseosas,Coca-Cola,18.84,13.68,2022-11-02
+117,Orange Textil Hogar Armas,Hogar,Textil Hogar,Orange,153.2,102.26,2022-12-02
+118,San Mateo Energizantes Puedo,Bebidas,Energizantes,San Mateo,13.93,9.18,2020-11-23
+119,Valle Menestras Sino,Abarrotes,Menestras,Valle,11.0,6.86,2022-10-25
+120,Doña Clara Pastas Campaña,Abarrotes,Pastas,Doña Clara,25.3,19.31,2022-01-08
+121,Primor Azúcar Silencio,Abarrotes,Azúcar,Primor,13.07,10.11,2022-04-22
+122,Ariel Escobas Mediante,Limpieza,Escobas,Ariel,36.67,26.57,2022-09-05
+123,Valle Menestras Resultados,Abarrotes,Menestras,Valle,16.08,10.23,2020-02-14
+124,Poett Ambientadores Decir,Limpieza,Ambientadores,Poett,26.11,16.11,2021-05-19
+125,Rexona Cuidado Facial Central,Cuidado Personal,Cuidado Facial,Rexona,45.2,31.9,2020-01-24
+126,Fantasía Decoración Violencia,Hogar,Decoración,Fantasía,256.17,190.55,2022-05-17
+127,Bosh Lavadoras Tu,Electrohogar,Lavadoras,Bosh,1468.11,942.82,2022-02-05
+128,Costeño Salsas Operación,Abarrotes,Salsas,Costeño,13.37,10.11,2020-12-29
+129,Cusqueña Cervezas Pequeña,Bebidas,Cervezas,Cusqueña,24.57,18.03,2020-08-06
+130,Tondero Arroz Hecho,Abarrotes,Arroz,Tondero,12.8,8.18,2020-03-20
+131,Colgate Shampoo Dónde,Cuidado Personal,Shampoo,Colgate,38.33,26.57,2020-03-10
+132,Ilko Organización Formación,Hogar,Organización,Ilko,220.29,157.32,2021-12-11
+133,Costeño Pastas Difícil,Abarrotes,Pastas,Costeño,13.27,10.59,2021-12-27
+134,Cusqueña Energizantes Amigo,Bebidas,Energizantes,Cusqueña,18.76,13.82,2020-06-26
+135,Oster Televisores Cerca,Electrohogar,Televisores,Oster,2157.94,1491.28,2021-09-27
+136,Inca Kola Jugos Consecuencia,Bebidas,Jugos,Inca Kola,13.38,9.99,2021-01-13
+137,Fantasía Textil Hogar Propios,Hogar,Textil Hogar,Fantasía,152.71,114.89,2021-05-25
+138,Sony Lavadoras J,Electrohogar,Lavadoras,Sony,1162.75,856.71,2022-05-12
+139,Ace Escobas Estudios,Limpieza,Escobas,Ace,30.43,22.63,2022-02-27
+140,LG Televisores Problemas,Electrohogar,Televisores,LG,1857.21,1325.93,2021-11-18
+141,Nivea Shampoo Partidos,Cuidado Personal,Shampoo,Nivea,36.3,24.13,2020-05-18
+142,Valle Conservas Demás,Abarrotes,Conservas,Valle,20.55,16.16,2022-11-20
+143,Orange Muebles Pequeños Radio,Hogar,Muebles Pequeños,Orange,92.51,56.23,2020-10-21
+144,Basement Decoración Mal,Hogar,Decoración,Basement,152.23,111.45,2021-03-13
+145,San Mateo Aguas Cuales,Bebidas,Aguas,San Mateo,27.06,19.87,2020-09-08
+146,Pilsen Cervezas Mirada,Bebidas,Cervezas,Pilsen,40.04,24.25,2020-02-16
+147,Colgate Cuidado Facial Medidas,Cuidado Personal,Cuidado Facial,Colgate,41.75,25.51,2020-03-10
+148,Rexona Desodorante Ésta,Cuidado Personal,Desodorante,Rexona,44.51,32.15,2020-02-06
+149,Philips Refrigeradoras Vivir,Electrohogar,Refrigeradoras,Philips,1508.59,1178.52,2021-07-31
+150,Rexona Desodorante Investigación,Cuidado Personal,Desodorante,Rexona,81.93,63.92,2020-11-25
+151,Doña Clara Arroz Tales,Abarrotes,Arroz,Doña Clara,29.24,19.42,2021-03-27
+152,Red Bull Aguas Violencia,Bebidas,Aguas,Red Bull,39.85,28.76,2021-02-28
+153,LG Microondas Demás,Electrohogar,Microondas,LG,1181.0,875.69,2022-12-23
+154,Ripley Home Menaje Sector,Hogar,Menaje,Ripley Home,238.71,158.93,2021-05-26
+155,Tondero Aceite Parece,Abarrotes,Aceite,Tondero,7.15,4.75,2020-08-29
+156,Pantene Desodorante Manos,Cuidado Personal,Desodorante,Pantene,29.4,19.67,2022-06-10
+157,Poett Ambientadores Industria,Limpieza,Ambientadores,Poett,42.58,28.53,2021-01-01
+158,Doña Clara Arroz Muchas,Abarrotes,Arroz,Doña Clara,15.92,12.31,2020-04-10
+159,Protex Shampoo Del,Cuidado Personal,Shampoo,Protex,39.25,29.36,2020-02-02
+160,Basement Menaje Ya,Hogar,Menaje,Basement,269.75,188.17,2021-04-28
+161,Coca-Cola Jugos Casi,Bebidas,Jugos,Coca-Cola,32.99,21.6,2020-12-18
+162,Uno Iluminación Boca,Hogar,Iluminación,Uno,186.15,145.73,2022-04-17
+163,Oster Televisores López,Electrohogar,Televisores,Oster,2351.44,1568.16,2020-04-15
+164,Sapolio Desinfectantes P,Limpieza,Desinfectantes,Sapolio,29.91,19.78,2021-10-08
+165,Ariel Escobas Líder,Limpieza,Escobas,Ariel,22.9,16.12,2020-06-04
+166,Pantene Shampoo Futuro,Cuidado Personal,Shampoo,Pantene,47.46,37.44,2022-12-10
+167,Magia Trapeadores Distintos,Limpieza,Trapeadores,Magia,56.11,35.49,2022-07-04
+168,Cusqueña Gaseosas Menor,Bebidas,Gaseosas,Cusqueña,33.01,22.67,2020-12-16
+169,San Mateo Gaseosas Suficiente,Bebidas,Gaseosas,San Mateo,40.2,27.47,2021-02-21
+170,Inca Kola Vinos Carácter,Bebidas,Vinos,Inca Kola,34.2,24.26,2021-08-30
+171,Tondero Pastas Solo,Abarrotes,Pastas,Tondero,13.07,10.19,2020-05-04
+172,Poett Desinfectantes Solamente,Limpieza,Desinfectantes,Poett,30.28,22.94,2020-02-08
+173,Primor Azúcar Noche,Abarrotes,Azúcar,Primor,14.76,9.71,2020-05-06
+174,Orange Iluminación Público,Hogar,Iluminación,Orange,214.11,138.96,2020-01-14
+175,Ariel Limpiadores Seguro,Limpieza,Limpiadores,Ariel,30.74,22.93,2021-06-15
+176,Poett Trapeadores Organización,Limpieza,Trapeadores,Poett,21.26,15.58,2022-03-15
+177,Magia Ambientadores Estaban,Limpieza,Ambientadores,Magia,19.63,14.54,2020-08-24
+178,Valle Aceite Pública,Abarrotes,Aceite,Valle,9.41,6.12,2022-12-23
+179,Protex Desodorante Llegado,Cuidado Personal,Desodorante,Protex,63.71,40.87,2022-12-17
+180,Red Bull Licores Hija,Bebidas,Licores,Red Bull,23.22,15.58,2022-06-26
+181,Glade Trapeadores Cabo,Limpieza,Trapeadores,Glade,33.48,24.77,2022-11-24
+182,Coca-Cola Energizantes Técnica,Bebidas,Energizantes,Coca-Cola,30.34,18.34,2020-05-03
+183,Orange Decoración Imagen,Hogar,Decoración,Orange,160.79,115.51,2022-10-12
+184,Nivea Desodorante Miguel,Cuidado Personal,Desodorante,Nivea,41.97,29.36,2021-08-28
+185,San Mateo Cervezas Análisis,Bebidas,Cervezas,San Mateo,24.36,17.07,2020-01-15
+186,Cusqueña Vinos Precios,Bebidas,Vinos,Cusqueña,25.57,15.71,2022-07-01
+187,Coca-Cola Vinos Entre,Bebidas,Vinos,Coca-Cola,17.69,12.25,2021-08-23
+188,Rexona Protección Solar Industria,Cuidado Personal,Protección Solar,Rexona,72.2,56.27,2021-09-14
+189,Ariel Ambientadores Director,Limpieza,Ambientadores,Ariel,34.11,21.09,2021-01-08
+190,Ariel Ambientadores Voz,Limpieza,Ambientadores,Ariel,43.54,28.6,2022-04-25
+191,Fantasía Textil Hogar Joven,Hogar,Textil Hogar,Fantasía,238.32,174.29,2021-05-05
+192,Valle Azúcar Visita,Abarrotes,Azúcar,Valle,33.13,22.03,2020-05-01
+193,Protex Jabón Octubre,Cuidado Personal,Jabón,Protex,96.31,75.33,2020-04-23
+194,Costeño Salsas Mundo,Abarrotes,Salsas,Costeño,10.5,8.05,2022-05-18
+195,Nicolini Aceite Consejo,Abarrotes,Aceite,Nicolini,16.0,12.59,2020-09-11
+196,Primor Menestras Santa,Abarrotes,Menestras,Primor,10.58,7.55,2020-12-18
+197,Costeño Salsas Corazón,Abarrotes,Salsas,Costeño,21.59,15.71,2020-05-27
+198,Ripley Home Textil Hogar Película,Hogar,Textil Hogar,Ripley Home,164.94,117.08,2022-03-30
+199,Doña Clara Aceite Diversas,Abarrotes,Aceite,Doña Clara,10.43,7.65,2021-03-04
+200,Uno Organización Decisión,Hogar,Organización,Uno,187.02,134.96,2020-04-09
+201,Pilsen Cervezas Algunas,Bebidas,Cervezas,Pilsen,33.06,22.55,2021-03-09
+202,Pantene Protección Solar Actividad,Cuidado Personal,Protección Solar,Pantene,51.62,36.09,2021-01-22
+203,LG Licuadoras Deseo,Electrohogar,Licuadoras,LG,1908.46,1325.48,2022-10-28
+204,Inca Kola Cervezas Destino,Bebidas,Cervezas,Inca Kola,37.24,24.57,2020-03-13
+205,Samsung Televisores He,Electrohogar,Televisores,Samsung,2262.28,1378.0,2021-01-26
+206,Rexona Protección Solar Proyectos,Cuidado Personal,Protección Solar,Rexona,26.4,18.11,2022-09-01
+207,Ripley Home Decoración Cultura,Hogar,Decoración,Ripley Home,171.86,105.15,2021-02-27
+208,Primor Conservas Oposición,Abarrotes,Conservas,Primor,13.81,10.33,2022-10-22
+209,San Mateo Cervezas Humanos,Bebidas,Cervezas,San Mateo,20.21,13.42,2022-03-09
+210,Glade Desinfectantes Investigación,Limpieza,Desinfectantes,Glade,49.72,37.52,2021-05-17
+211,Doña Clara Conservas Pablo,Abarrotes,Conservas,Doña Clara,13.15,8.29,2021-12-07
+212,Ilko Textil Hogar Él,Hogar,Textil Hogar,Ilko,152.15,112.79,2022-10-17
+213,Valle Conservas Partes,Abarrotes,Conservas,Valle,19.33,15.4,2020-04-08
+214,Cusqueña Gaseosas Esos,Bebidas,Gaseosas,Cusqueña,16.69,12.8,2021-02-23
+215,Bosh Planchas Particular,Electrohogar,Planchas,Bosh,1762.29,1077.44,2022-09-10
+216,Tondero Menestras Diez,Abarrotes,Menestras,Tondero,17.51,12.17,2022-01-14
+217,Ace Trapeadores Tampoco,Limpieza,Trapeadores,Ace,23.88,18.41,2022-07-09
+218,San Mateo Jugos Según,Bebidas,Jugos,San Mateo,20.39,15.58,2020-03-02
+219,San Mateo Cervezas Nuestro,Bebidas,Cervezas,San Mateo,23.86,17.26,2022-06-10
+220,Magia Detergentes Vino,Limpieza,Detergentes,Magia,40.31,29.59,2022-11-29
+221,Sapolio Detergentes Sectores,Limpieza,Detergentes,Sapolio,49.72,37.55,2020-06-29
+222,Valle Azúcar Libertad,Abarrotes,Azúcar,Valle,9.37,6.25,2020-07-04
+223,Tondero Conservas Días,Abarrotes,Conservas,Tondero,12.66,7.72,2021-07-03
+224,Pilsen Cervezas Visto,Bebidas,Cervezas,Pilsen,15.75,11.0,2021-07-07
+225,Red Bull Energizantes Visita,Bebidas,Energizantes,Red Bull,28.11,18.06,2022-03-16
+226,San Mateo Gaseosas No,Bebidas,Gaseosas,San Mateo,20.86,12.67,2020-07-14
+227,Cusqueña Vinos Dijo,Bebidas,Vinos,Cusqueña,31.59,20.33,2021-12-08
+228,Ariel Limpiadores De,Limpieza,Limpiadores,Ariel,21.6,15.48,2021-12-25
+229,Pantene Desodorante Puntos,Cuidado Personal,Desodorante,Pantene,54.82,43.6,2021-09-30
+230,Poett Ambientadores Unión,Limpieza,Ambientadores,Poett,57.18,41.45,2022-02-15
+231,Glade Desinfectantes Derechos,Limpieza,Desinfectantes,Glade,27.25,20.64,2021-12-31
+232,Tondero Pastas Club,Abarrotes,Pastas,Tondero,22.27,15.37,2021-04-15
+233,Primor Aceite Asociación,Abarrotes,Aceite,Primor,20.3,13.02,2021-06-15
+234,Pantene Protección Solar Gobierno,Cuidado Personal,Protección Solar,Pantene,47.14,30.78,2020-01-26
+235,Uno Muebles Pequeños Hubo,Hogar,Muebles Pequeños,Uno,212.86,138.94,2021-12-18
+236,Poett Limpiadores Aspectos,Limpieza,Limpiadores,Poett,34.5,22.64,2020-05-02
+237,Ripley Home Menaje Cualquier,Hogar,Menaje,Ripley Home,266.57,160.03,2020-02-19
+238,Nicolini Conservas Último,Abarrotes,Conservas,Nicolini,15.94,12.19,2021-03-17
+239,Sony Planchas Ayer,Electrohogar,Planchas,Sony,2182.42,1602.1,2022-12-22
+240,Primor Conservas Ayuda,Abarrotes,Conservas,Primor,12.99,8.37,2022-11-09
+241,Costeño Aceite Muy,Abarrotes,Aceite,Costeño,14.3,9.63,2021-11-17
+242,Rexona Protección Solar Cierta,Cuidado Personal,Protección Solar,Rexona,49.72,35.39,2020-08-10
+243,Samsung Lavadoras Derechos,Electrohogar,Lavadoras,Samsung,1064.98,779.49,2020-07-17
+244,Doña Clara Pastas Conseguir,Abarrotes,Pastas,Doña Clara,13.61,10.77,2022-03-11
+245,Doña Clara Conservas Hora,Abarrotes,Conservas,Doña Clara,22.64,18.06,2021-09-03
+246,Pantene Cuidado Facial Políticas,Cuidado Personal,Cuidado Facial,Pantene,54.42,38.35,2020-09-23
+247,Colgate Desodorante Riesgo,Cuidado Personal,Desodorante,Colgate,51.67,36.21,2022-05-04
+248,Primor Conservas Viejo,Abarrotes,Conservas,Primor,11.86,7.88,2022-06-26
+249,Sapolio Trapeadores Condiciones,Limpieza,Trapeadores,Sapolio,27.36,16.58,2020-02-22
+250,Sapolio Desinfectantes Primer,Limpieza,Desinfectantes,Sapolio,37.62,25.87,2022-10-14
+251,Doña Clara Azúcar Y,Abarrotes,Azúcar,Doña Clara,10.68,6.44,2020-05-18
+252,Primor Arroz Semana,Abarrotes,Arroz,Primor,14.35,9.22,2020-10-22
+253,LG Refrigeradoras Argentina,Electrohogar,Refrigeradoras,LG,2742.18,1925.02,2021-06-06
+254,Basement Decoración Domingo,Hogar,Decoración,Basement,205.36,136.06,2020-05-29
+255,Orange Decoración Izquierda,Hogar,Decoración,Orange,175.03,133.86,2020-07-15
+256,Tondero Salsas Expresión,Abarrotes,Salsas,Tondero,18.69,11.99,2020-01-10
+257,Sapolio Detergentes Martín,Limpieza,Detergentes,Sapolio,46.63,36.35,2020-03-06
+258,Inca Kola Licores Teoría,Bebidas,Licores,Inca Kola,27.54,17.67,2020-07-19
+259,Tondero Conservas Contenido,Abarrotes,Conservas,Tondero,13.9,8.53,2022-12-26
+260,Valle Conservas Estamos,Abarrotes,Conservas,Valle,16.05,9.82,2021-03-08
+261,Sony Lavadoras Cambios,Electrohogar,Lavadoras,Sony,1428.09,1008.4,2022-05-02
+262,Primor Pastas Finalmente,Abarrotes,Pastas,Primor,19.51,12.3,2022-05-16
+263,Colgate Crema Dental Rosa,Cuidado Personal,Crema Dental,Colgate,26.36,17.7,2020-09-16
+264,Rexona Crema Dental Lugar,Cuidado Personal,Crema Dental,Rexona,43.88,33.06,2021-01-31
+265,Poett Desinfectantes Estudios,Limpieza,Desinfectantes,Poett,38.06,24.05,2022-07-23
+266,Primor Arroz Desarrollo,Abarrotes,Arroz,Primor,14.77,9.4,2020-02-22
+267,Protex Shampoo González,Cuidado Personal,Shampoo,Protex,37.98,27.57,2022-10-09
+268,Ilko Iluminación Productos,Hogar,Iluminación,Ilko,174.81,119.2,2022-04-28
+269,Glade Trapeadores Hombre,Limpieza,Trapeadores,Glade,28.67,17.54,2022-08-17
+270,Esika Protección Solar Noviembre,Cuidado Personal,Protección Solar,Esika,36.2,27.35,2020-04-08
+271,Glade Escobas Decía,Limpieza,Escobas,Glade,34.88,27.13,2020-11-11
+272,Primor Conservas Pp,Abarrotes,Conservas,Primor,22.64,15.38,2020-07-10
+273,Ace Trapeadores Seguro,Limpieza,Trapeadores,Ace,48.57,36.16,2020-08-17
+274,Uno Organización Mundial,Hogar,Organización,Uno,251.34,180.86,2022-10-29
+275,Coca-Cola Jugos Director,Bebidas,Jugos,Coca-Cola,24.45,14.95,2021-08-08
+276,Oster Licuadoras Tan,Electrohogar,Licuadoras,Oster,1624.96,1077.25,2022-09-23
+277,Basement Muebles Pequeños Población,Hogar,Muebles Pequeños,Basement,163.79,113.83,2021-02-17
+278,Nicolini Salsas Políticas,Abarrotes,Salsas,Nicolini,15.61,10.9,2022-05-18
+279,Nicolini Menestras Tenía,Abarrotes,Menestras,Nicolini,17.16,10.45,2021-06-16
+280,Pilsen Jugos Curso,Bebidas,Jugos,Pilsen,21.11,12.9,2020-02-24
+281,Glade Detergentes Lugar,Limpieza,Detergentes,Glade,26.63,16.55,2020-07-15
+282,Sony Lavadoras Precio,Electrohogar,Lavadoras,Sony,2422.75,1496.66,2020-07-21
+283,Pilsen Vinos Chile,Bebidas,Vinos,Pilsen,28.51,20.95,2021-10-18
+284,Primor Salsas Pone,Abarrotes,Salsas,Primor,14.58,11.18,2020-06-02
+285,Tondero Conservas Elecciones,Abarrotes,Conservas,Tondero,12.61,7.98,2020-12-13
+286,Primor Menestras Seguridad,Abarrotes,Menestras,Primor,32.7,20.07,2021-03-18
+287,Protex Cuidado Facial Económica,Cuidado Personal,Cuidado Facial,Protex,69.2,51.05,2022-10-09
+288,Coca-Cola Cervezas Libertad,Bebidas,Cervezas,Coca-Cola,22.81,18.22,2022-10-28
+289,Ace Trapeadores Ciento,Limpieza,Trapeadores,Ace,21.47,13.56,2020-05-11
+290,Primor Menestras Técnica,Abarrotes,Menestras,Primor,12.89,9.98,2020-12-29
+291,Primor Conservas Cómo,Abarrotes,Conservas,Primor,17.18,13.64,2020-09-25
+292,Coca-Cola Energizantes Época,Bebidas,Energizantes,Coca-Cola,24.23,17.35,2020-07-07
+293,Valle Salsas Llamado,Abarrotes,Salsas,Valle,23.23,18.03,2020-01-30
+294,Cusqueña Aguas Dice,Bebidas,Aguas,Cusqueña,53.5,33.59,2021-01-03
+295,Coca-Cola Energizantes Hubiera,Bebidas,Energizantes,Coca-Cola,30.28,21.63,2021-02-18
+296,Bosh Televisores No,Electrohogar,Televisores,Bosh,1529.56,1198.96,2021-07-11
+297,Colgate Shampoo Noviembre,Cuidado Personal,Shampoo,Colgate,45.01,34.41,2021-09-13
+298,San Mateo Vinos Nada,Bebidas,Vinos,San Mateo,23.08,18.15,2022-09-09
+299,Nicolini Azúcar Última,Abarrotes,Azúcar,Nicolini,12.54,8.64,2020-10-04
+300,Sapolio Trapeadores Debía,Limpieza,Trapeadores,Sapolio,27.76,19.0,2022-01-13
+301,Doña Clara Menestras Vida,Abarrotes,Menestras,Doña Clara,18.9,11.6,2022-08-09
+302,Samsung Microondas Qué,Electrohogar,Microondas,Samsung,2515.06,1827.7,2020-10-29
+303,LG Televisores Salida,Electrohogar,Televisores,LG,922.74,636.86,2022-09-23
+304,Samsung Refrigeradoras Político,Electrohogar,Refrigeradoras,Samsung,1437.43,1041.24,2020-03-04
+305,Philips Refrigeradoras Pocos,Electrohogar,Refrigeradoras,Philips,1420.07,971.57,2022-10-20
+306,Poett Trapeadores Tengo,Limpieza,Trapeadores,Poett,17.52,11.75,2022-12-03
+307,Sony Lavadoras Constitución,Electrohogar,Lavadoras,Sony,882.06,667.87,2022-12-13
+308,Orange Muebles Pequeños Diciembre,Hogar,Muebles Pequeños,Orange,105.77,70.98,2022-05-22
+309,Tondero Aceite Generales,Abarrotes,Aceite,Tondero,18.83,14.4,2021-05-29
+310,Tondero Menestras Le,Abarrotes,Menestras,Tondero,23.3,14.16,2020-10-29
+311,Colgate Protección Solar Le,Cuidado Personal,Protección Solar,Colgate,34.11,21.23,2020-12-22
+312,Basement Menaje Recursos,Hogar,Menaje,Basement,177.0,128.95,2022-03-15
+313,Sapolio Ambientadores Necesario,Limpieza,Ambientadores,Sapolio,19.03,14.01,2021-12-11
+314,Sapolio Ambientadores Éste,Limpieza,Ambientadores,Sapolio,22.49,15.85,2021-07-05
+315,Ariel Escobas I,Limpieza,Escobas,Ariel,34.61,24.29,2020-04-13
+316,San Mateo Aguas Ministro,Bebidas,Aguas,San Mateo,26.71,17.07,2022-06-05
+317,Colgate Jabón Visto,Cuidado Personal,Jabón,Colgate,90.33,65.14,2021-09-15
+318,Sony Microondas Claro,Electrohogar,Microondas,Sony,2054.32,1573.31,2021-10-25
+319,Oster Planchas Obstante,Electrohogar,Planchas,Oster,1921.01,1164.68,2020-01-10
+320,Sapolio Ambientadores Hecho,Limpieza,Ambientadores,Sapolio,30.98,20.93,2021-12-23
+321,Basement Decoración Cabo,Hogar,Decoración,Basement,154.17,122.39,2020-12-08
+322,Sapolio Ambientadores Aquellas,Limpieza,Ambientadores,Sapolio,30.76,23.62,2020-08-13
+323,Pilsen Licores Estaban,Bebidas,Licores,Pilsen,22.48,16.26,2020-07-03
+324,Tondero Arroz Plan,Abarrotes,Arroz,Tondero,21.06,16.2,2022-08-12
+325,Ilko Menaje Económico,Hogar,Menaje,Ilko,187.9,112.95,2020-04-05
+326,San Mateo Jugos Tales,Bebidas,Jugos,San Mateo,30.4,22.57,2020-03-04
+327,Ariel Ambientadores Pueden,Limpieza,Ambientadores,Ariel,31.4,21.92,2021-01-21
+328,Primor Salsas Pasado,Abarrotes,Salsas,Primor,13.96,10.72,2021-02-28
+329,Ilko Organización Teatro,Hogar,Organización,Ilko,231.17,163.26,2021-09-04
+330,Ariel Detergentes Época,Limpieza,Detergentes,Ariel,31.21,19.05,2020-06-05
+331,Coca-Cola Aguas Bajo,Bebidas,Aguas,Coca-Cola,56.5,38.58,2022-02-12
+332,Costeño Pastas Imagen,Abarrotes,Pastas,Costeño,24.25,17.08,2022-01-31
+333,Fantasía Organización Buenos,Hogar,Organización,Fantasía,199.93,158.14,2021-12-26
+334,Uno Muebles Pequeños Internacional,Hogar,Muebles Pequeños,Uno,177.79,118.42,2020-06-09
+335,Cusqueña Aguas Futuro,Bebidas,Aguas,Cusqueña,21.72,13.49,2021-09-17
+336,Oster Microondas Decía,Electrohogar,Microondas,Oster,1606.0,979.21,2022-07-03
+337,Primor Pastas Eran,Abarrotes,Pastas,Primor,16.32,12.34,2020-08-16
+338,Fantasía Organización Padres,Hogar,Organización,Fantasía,279.72,207.68,2022-07-16
+339,Nivea Cuidado Facial Fernando,Cuidado Personal,Cuidado Facial,Nivea,32.43,22.35,2021-05-02
+340,Coca-Cola Vinos Ese,Bebidas,Vinos,Coca-Cola,25.37,19.57,2021-03-11
+341,Doña Clara Aceite Importancia,Abarrotes,Aceite,Doña Clara,13.19,10.38,2022-03-14
+342,Nicolini Aceite Fondo,Abarrotes,Aceite,Nicolini,16.0,10.45,2020-02-28
+343,Sapolio Detergentes Entre,Limpieza,Detergentes,Sapolio,33.74,23.53,2022-09-28
+344,Colgate Crema Dental Punto,Cuidado Personal,Crema Dental,Colgate,72.08,47.87,2021-05-28
+345,Valle Aceite Medidas,Abarrotes,Aceite,Valle,13.44,9.0,2021-07-16
+346,Glade Trapeadores Solamente,Limpieza,Trapeadores,Glade,22.96,16.79,2021-07-23
+347,Orange Iluminación Nueva,Hogar,Iluminación,Orange,141.67,95.55,2021-09-13
+348,Tondero Salsas Años,Abarrotes,Salsas,Tondero,15.72,10.94,2020-08-09
+349,Ilko Muebles Pequeños Norte,Hogar,Muebles Pequeños,Ilko,197.2,132.43,2020-05-22
+350,Doña Clara Arroz Mar,Abarrotes,Arroz,Doña Clara,15.48,9.51,2021-05-01
+351,Cusqueña Jugos Dan,Bebidas,Jugos,Cusqueña,24.81,16.17,2020-01-16
+352,Rexona Shampoo Oro,Cuidado Personal,Shampoo,Rexona,50.78,39.64,2022-12-17
+353,Oster Televisores Está,Electrohogar,Televisores,Oster,2853.24,1869.24,2021-01-27
+354,Costeño Pastas Puntos,Abarrotes,Pastas,Costeño,17.47,13.75,2021-06-19
+355,Sapolio Desinfectantes Dicen,Limpieza,Desinfectantes,Sapolio,29.25,23.3,2021-07-08
+356,Primor Arroz Lejos,Abarrotes,Arroz,Primor,11.08,7.5,2022-03-07
+357,Inca Kola Jugos Lucha,Bebidas,Jugos,Inca Kola,28.86,18.6,2022-03-23
+358,Cusqueña Licores Historia,Bebidas,Licores,Cusqueña,24.66,16.92,2020-12-04
+359,Inca Kola Jugos Necesidad,Bebidas,Jugos,Inca Kola,31.25,22.38,2021-10-22
+360,Coca-Cola Jugos Metros,Bebidas,Jugos,Coca-Cola,24.63,17.85,2020-09-30
+361,Costeño Arroz Padres,Abarrotes,Arroz,Costeño,18.46,12.1,2020-12-11
+362,Costeño Menestras Revolución,Abarrotes,Menestras,Costeño,19.98,13.29,2021-06-05
+363,Orange Textil Hogar Lo,Hogar,Textil Hogar,Orange,157.49,104.0,2022-07-22
+364,Pilsen Vinos Esto,Bebidas,Vinos,Pilsen,21.41,15.55,2021-05-29
+365,Tondero Azúcar Pocos,Abarrotes,Azúcar,Tondero,12.44,8.14,2020-03-09
+366,Tondero Pastas Ministerio,Abarrotes,Pastas,Tondero,23.0,17.99,2021-01-16
+367,Magia Escobas Posible,Limpieza,Escobas,Magia,35.33,24.63,2022-09-08
+368,Philips Microondas Puerto,Electrohogar,Microondas,Philips,1727.89,1189.06,2020-12-17
+369,Nicolini Salsas López,Abarrotes,Salsas,Nicolini,18.61,12.25,2022-11-27
+370,Protex Desodorante Popular,Cuidado Personal,Desodorante,Protex,46.11,32.15,2022-03-21
+371,Red Bull Energizantes Asimismo,Bebidas,Energizantes,Red Bull,32.16,24.85,2022-11-08
+372,Doña Clara Azúcar Conseguir,Abarrotes,Azúcar,Doña Clara,24.95,16.27,2020-02-06
+373,LG Licuadoras Trabajo,Electrohogar,Licuadoras,LG,1185.12,724.14,2022-05-09
+374,Rexona Jabón Nunca,Cuidado Personal,Jabón,Rexona,33.07,24.88,2021-12-25
+375,Red Bull Vinos Viene,Bebidas,Vinos,Red Bull,35.0,23.74,2020-07-11
+376,Sapolio Desinfectantes Señora,Limpieza,Desinfectantes,Sapolio,40.03,29.25,2020-10-26
+377,Ace Ambientadores Tener,Limpieza,Ambientadores,Ace,53.29,39.99,2021-05-31
+378,LG Microondas Ciento,Electrohogar,Microondas,LG,2210.25,1722.15,2020-10-11
+379,Oster Televisores Problema,Electrohogar,Televisores,Oster,1327.88,937.29,2020-10-27
+380,Protex Shampoo Cultura,Cuidado Personal,Shampoo,Protex,47.87,36.96,2021-11-11
+381,Basement Menaje Alguien,Hogar,Menaje,Basement,118.56,72.6,2021-10-06
+382,Basement Iluminación Medios,Hogar,Iluminación,Basement,183.79,127.87,2020-02-26
+383,Ilko Textil Hogar Dicen,Hogar,Textil Hogar,Ilko,147.34,101.9,2022-07-12
+384,Tondero Arroz Aunque,Abarrotes,Arroz,Tondero,9.56,7.37,2020-02-11
+385,Poett Desinfectantes Tema,Limpieza,Desinfectantes,Poett,18.67,11.65,2020-01-16
+386,Samsung Televisores Primero,Electrohogar,Televisores,Samsung,1781.63,1095.14,2022-05-27
+387,Inca Kola Jugos Sistema,Bebidas,Jugos,Inca Kola,28.13,19.39,2022-03-28
+388,Uno Decoración M,Hogar,Decoración,Uno,149.86,90.41,2022-02-14
+389,Sapolio Desinfectantes Cual,Limpieza,Desinfectantes,Sapolio,57.05,44.88,2021-11-09
+390,Coca-Cola Vinos Todavía,Bebidas,Vinos,Coca-Cola,20.31,12.93,2022-12-14
+391,Cusqueña Vinos Nuevos,Bebidas,Vinos,Cusqueña,30.71,24.02,2021-10-19
+392,LG Televisores Cabo,Electrohogar,Televisores,LG,1387.65,1101.06,2021-12-06
+393,Uno Decoración Atrás,Hogar,Decoración,Uno,98.33,77.25,2021-04-27
+394,Protex Cuidado Facial G,Cuidado Personal,Cuidado Facial,Protex,37.81,23.58,2022-05-30
+395,Basement Muebles Pequeños Ir,Hogar,Muebles Pequeños,Basement,131.35,85.44,2022-10-05
+396,Valle Azúcar Tierra,Abarrotes,Azúcar,Valle,20.27,15.64,2021-05-06
+397,Oster Planchas Posibilidad,Electrohogar,Planchas,Oster,2156.33,1692.49,2022-12-19
+398,Esika Crema Dental Frente,Cuidado Personal,Crema Dental,Esika,50.06,34.24,2021-09-13
+399,Valle Arroz Claro,Abarrotes,Arroz,Valle,11.7,7.33,2021-07-23
+400,Primor Pastas Apenas,Abarrotes,Pastas,Primor,15.59,9.85,2022-09-21
+401,Poett Ambientadores Central,Limpieza,Ambientadores,Poett,37.37,27.15,2022-10-15
+402,San Mateo Licores Existe,Bebidas,Licores,San Mateo,16.79,10.84,2022-01-30
+403,Valle Azúcar Ellos,Abarrotes,Azúcar,Valle,12.92,9.94,2022-05-11
+404,Nicolini Aceite Televisión,Abarrotes,Aceite,Nicolini,13.29,9.47,2022-10-28
+405,Cusqueña Energizantes Cámara,Bebidas,Energizantes,Cusqueña,21.33,13.24,2020-07-08
+406,Costeño Arroz Pasar,Abarrotes,Arroz,Costeño,21.17,13.16,2020-07-11
+407,Orange Decoración Cámara,Hogar,Decoración,Orange,106.75,81.5,2022-12-08
+408,LG Licuadoras Don,Electrohogar,Licuadoras,LG,1767.06,1061.78,2021-10-25
+409,Fantasía Textil Hogar Encontrar,Hogar,Textil Hogar,Fantasía,125.44,78.05,2021-09-25
+410,Orange Decoración Gran,Hogar,Decoración,Orange,229.09,141.63,2020-11-15
+411,Sony Lavadoras Zonas,Electrohogar,Lavadoras,Sony,2069.36,1454.31,2021-07-25
+412,Basement Textil Hogar Hizo,Hogar,Textil Hogar,Basement,176.79,127.5,2021-04-27
+413,Primor Arroz Allí,Abarrotes,Arroz,Primor,21.57,14.48,2020-02-29
+414,Sony Refrigeradoras Y,Electrohogar,Refrigeradoras,Sony,2271.78,1536.85,2020-07-11
+415,Pantene Shampoo Perdido,Cuidado Personal,Shampoo,Pantene,75.42,52.4,2021-10-20
+416,Red Bull Aguas Sido,Bebidas,Aguas,Red Bull,29.86,23.37,2022-04-08
+417,Orange Decoración Busca,Hogar,Decoración,Orange,89.82,58.12,2020-02-10
+418,Primor Arroz Uso,Abarrotes,Arroz,Primor,19.74,12.33,2020-07-01
+419,San Mateo Energizantes Pocos,Bebidas,Energizantes,San Mateo,37.02,25.13,2021-11-11
+420,Ripley Home Organización Español,Hogar,Organización,Ripley Home,183.15,145.66,2022-07-09
+421,Bosh Televisores Base,Electrohogar,Televisores,Bosh,1359.7,1081.19,2020-03-14
+422,Costeño Pastas Estudios,Abarrotes,Pastas,Costeño,20.23,15.56,2020-12-16
+423,Tondero Azúcar Precio,Abarrotes,Azúcar,Tondero,29.08,18.75,2020-12-08
+424,Pilsen Aguas Salida,Bebidas,Aguas,Pilsen,16.94,12.72,2020-02-25
+425,Oster Televisores Comercio,Electrohogar,Televisores,Oster,1667.87,1300.07,2020-07-18
+426,Colgate Protección Solar Santiago,Cuidado Personal,Protección Solar,Colgate,41.52,27.85,2021-05-17
+427,Doña Clara Salsas Puedo,Abarrotes,Salsas,Doña Clara,12.17,7.46,2021-12-17
+428,San Mateo Vinos Ciudad,Bebidas,Vinos,San Mateo,33.94,26.4,2021-10-18
+429,San Mateo Cervezas Hospital,Bebidas,Cervezas,San Mateo,36.87,23.98,2022-01-06
+430,Pantene Protección Solar Ha,Cuidado Personal,Protección Solar,Pantene,31.81,22.12,2021-08-30
+431,Tondero Salsas Creo,Abarrotes,Salsas,Tondero,20.4,12.97,2021-03-15
+432,Ilko Organización Santiago,Hogar,Organización,Ilko,188.21,119.14,2022-05-10
+433,Colgate Desodorante Va,Cuidado Personal,Desodorante,Colgate,59.92,39.37,2021-10-28
+434,Glade Desinfectantes Creo,Limpieza,Desinfectantes,Glade,30.64,18.99,2022-08-30
+435,Poett Escobas Fuentes,Limpieza,Escobas,Poett,52.63,39.58,2021-08-06
+436,Sony Licuadoras Especie,Electrohogar,Licuadoras,Sony,1998.6,1299.09,2022-06-17
+437,Pantene Protección Solar Respuesta,Cuidado Personal,Protección Solar,Pantene,44.56,28.4,2021-04-22
+438,Ariel Escobas Local,Limpieza,Escobas,Ariel,29.23,18.01,2020-12-22
+439,Uno Organización Seguir,Hogar,Organización,Uno,191.12,144.47,2022-12-11
+440,Tondero Azúcar Países,Abarrotes,Azúcar,Tondero,13.88,8.58,2022-02-23
+441,Primor Salsas Poco,Abarrotes,Salsas,Primor,16.41,10.73,2021-04-23
+442,Costeño Salsas Ayuda,Abarrotes,Salsas,Costeño,21.9,13.15,2022-04-30
+443,Colgate Shampoo Corazón,Cuidado Personal,Shampoo,Colgate,33.8,22.17,2022-01-11
+444,Inca Kola Vinos Podría,Bebidas,Vinos,Inca Kola,20.45,13.57,2022-02-28
+445,Valle Azúcar Habría,Abarrotes,Azúcar,Valle,13.01,10.26,2020-02-17
+446,Pantene Protección Solar Cierta,Cuidado Personal,Protección Solar,Pantene,38.18,24.79,2020-12-18
+447,Rexona Crema Dental Comunicación,Cuidado Personal,Crema Dental,Rexona,23.15,16.89,2021-07-03
+448,LG Microondas Deja,Electrohogar,Microondas,LG,1581.27,967.49,2022-11-08
+449,Basement Muebles Pequeños Hizo,Hogar,Muebles Pequeños,Basement,174.29,129.57,2021-11-16
+450,Tondero Azúcar Experiencia,Abarrotes,Azúcar,Tondero,15.03,10.56,2021-07-23
+451,Ilko Muebles Pequeños Manos,Hogar,Muebles Pequeños,Ilko,197.53,122.24,2021-10-25
+452,Primor Azúcar Administración,Abarrotes,Azúcar,Primor,26.38,16.34,2021-06-16
+453,Poett Detergentes Hora,Limpieza,Detergentes,Poett,18.26,13.63,2020-02-18
+454,Magia Detergentes Puedo,Limpieza,Detergentes,Magia,30.72,22.67,2022-09-14
+455,Basement Muebles Pequeños Habría,Hogar,Muebles Pequeños,Basement,178.55,136.05,2022-12-20
+456,Costeño Azúcar Están,Abarrotes,Azúcar,Costeño,16.97,13.13,2021-12-13
+457,Basement Textil Hogar Estado,Hogar,Textil Hogar,Basement,127.84,86.46,2021-01-22
+458,Tondero Aceite Creación,Abarrotes,Aceite,Tondero,10.86,6.56,2022-02-03
+459,Pilsen Aguas Meses,Bebidas,Aguas,Pilsen,10.49,7.48,2021-07-13
+460,Pantene Desodorante Según,Cuidado Personal,Desodorante,Pantene,47.43,37.66,2021-08-22
+461,Oster Lavadoras Imágenes,Electrohogar,Lavadoras,Oster,1419.41,1073.63,2020-09-09
+462,Ariel Ambientadores Deben,Limpieza,Ambientadores,Ariel,42.51,28.57,2020-03-27
+463,Pilsen Licores Tienen,Bebidas,Licores,Pilsen,28.38,22.61,2021-11-01
+464,Sapolio Escobas Nada,Limpieza,Escobas,Sapolio,29.94,20.95,2022-09-25
+465,Protex Jabón Habrá,Cuidado Personal,Jabón,Protex,36.11,27.56,2020-02-08
+466,Coca-Cola Energizantes Nos,Bebidas,Energizantes,Coca-Cola,27.62,20.38,2022-03-06
+467,Inca Kola Cervezas Diferencia,Bebidas,Cervezas,Inca Kola,29.76,23.06,2020-08-11
+468,Bosh Lavadoras Española,Electrohogar,Lavadoras,Bosh,1112.86,765.67,2022-01-29
+469,Orange Iluminación Carta,Hogar,Iluminación,Orange,162.54,102.76,2021-06-10
+470,Orange Muebles Pequeños Unidad,Hogar,Muebles Pequeños,Orange,138.22,106.33,2022-10-28
+471,Ilko Iluminación Manera,Hogar,Iluminación,Ilko,149.24,98.71,2020-08-04
+472,LG Refrigeradoras Pocos,Electrohogar,Refrigeradoras,LG,1531.5,1032.03,2021-07-19
+473,Cusqueña Cervezas Autor,Bebidas,Cervezas,Cusqueña,19.04,11.56,2022-03-02
+474,LG Refrigeradoras Nada,Electrohogar,Refrigeradoras,LG,3160.49,2269.29,2021-02-21
+475,Uno Organización Juego,Hogar,Organización,Uno,110.92,70.8,2021-04-06
+476,Basement Textil Hogar Varios,Hogar,Textil Hogar,Basement,78.4,57.01,2021-03-07
+477,Esika Shampoo Derecho,Cuidado Personal,Shampoo,Esika,53.67,32.57,2022-05-30
+478,Nicolini Aceite Productos,Abarrotes,Aceite,Nicolini,15.87,11.6,2020-05-19
+479,Pantene Shampoo Puso,Cuidado Personal,Shampoo,Pantene,84.74,66.17,2022-09-16
+480,Doña Clara Azúcar Él,Abarrotes,Azúcar,Doña Clara,17.11,11.66,2022-08-26
+481,Rexona Protección Solar Dicho,Cuidado Personal,Protección Solar,Rexona,58.1,44.84,2021-12-06
+482,Magia Detergentes Club,Limpieza,Detergentes,Magia,28.05,18.42,2021-12-21
+483,Glade Limpiadores Real,Limpieza,Limpiadores,Glade,39.77,29.15,2022-12-10
+484,Ace Ambientadores Poder,Limpieza,Ambientadores,Ace,25.33,18.75,2022-08-04
+485,Ace Escobas Mujeres,Limpieza,Escobas,Ace,29.53,21.68,2020-07-25
+486,Sony Televisores Ojos,Electrohogar,Televisores,Sony,3172.93,2066.51,2020-04-03
+487,Valle Azúcar Tiene,Abarrotes,Azúcar,Valle,13.03,8.07,2021-10-10
+488,Inca Kola Jugos No,Bebidas,Jugos,Inca Kola,29.66,23.64,2022-08-08
+489,Colgate Shampoo Libertad,Cuidado Personal,Shampoo,Colgate,49.7,37.22,2022-02-04
+490,Pilsen Licores Voluntad,Bebidas,Licores,Pilsen,25.72,16.68,2021-07-05
+491,Costeño Arroz Toma,Abarrotes,Arroz,Costeño,12.42,9.39,2020-04-25
+492,Cusqueña Aguas Trabajar,Bebidas,Aguas,Cusqueña,20.47,15.35,2022-06-03
+493,LG Lavadoras Europea,Electrohogar,Lavadoras,LG,1154.34,921.22,2020-12-04
+494,Valle Aceite Muerte,Abarrotes,Aceite,Valle,18.85,12.83,2020-06-19
+495,Philips Lavadoras Medios,Electrohogar,Lavadoras,Philips,1019.95,791.33,2022-07-21
+496,Red Bull Cervezas Destino,Bebidas,Cervezas,Red Bull,19.58,14.6,2021-12-15
+497,Magia Desinfectantes Una,Limpieza,Desinfectantes,Magia,23.93,17.86,2021-03-12
+498,Uno Textil Hogar Puede,Hogar,Textil Hogar,Uno,147.77,102.23,2022-03-10
+499,Pantene Cuidado Facial Según,Cuidado Personal,Cuidado Facial,Pantene,36.96,25.82,2020-04-05
+500,Costeño Azúcar San,Abarrotes,Azúcar,Costeño,12.61,8.78,2021-12-26
+501,Inca Kola Cervezas O,Bebidas,Cervezas,Inca Kola,17.69,13.28,2021-12-22
+502,Basement Iluminación Algún,Hogar,Iluminación,Basement,221.07,175.56,2020-01-25
+503,Inca Kola Cervezas Primera,Bebidas,Cervezas,Inca Kola,20.33,12.37,2021-05-23
+504,Pantene Protección Solar Gran,Cuidado Personal,Protección Solar,Pantene,47.05,36.01,2020-05-19
+505,Doña Clara Azúcar Enfermedad,Abarrotes,Azúcar,Doña Clara,14.09,8.89,2020-02-07
+506,Ilko Decoración Libre,Hogar,Decoración,Ilko,168.02,120.06,2020-12-19
+507,Primor Conservas Principal,Abarrotes,Conservas,Primor,18.91,14.8,2021-06-23
+508,Costeño Azúcar Lenguaje,Abarrotes,Azúcar,Costeño,21.73,13.84,2022-07-14
+509,Coca-Cola Energizantes Hacerlo,Bebidas,Energizantes,Coca-Cola,22.41,15.22,2022-12-17
+510,Glade Ambientadores Ellas,Limpieza,Ambientadores,Glade,32.09,22.04,2020-08-06
+511,Samsung Televisores Real,Electrohogar,Televisores,Samsung,2855.86,2044.74,2022-03-26
+512,Protex Desodorante Atrás,Cuidado Personal,Desodorante,Protex,36.03,25.77,2021-05-07
+513,Magia Detergentes Niño,Limpieza,Detergentes,Magia,32.84,23.48,2021-02-10
+514,Red Bull Energizantes Parecía,Bebidas,Energizantes,Red Bull,26.1,20.7,2021-07-26
+515,Bosh Lavadoras República,Electrohogar,Lavadoras,Bosh,1714.44,1165.86,2021-02-06
+516,Colgate Protección Solar América,Cuidado Personal,Protección Solar,Colgate,47.01,36.05,2021-07-01
+517,Ariel Limpiadores Consecuencia,Limpieza,Limpiadores,Ariel,26.84,19.52,2020-11-25
+518,Red Bull Licores Origen,Bebidas,Licores,Red Bull,45.18,33.69,2020-02-12
+519,Oster Televisores Ser,Electrohogar,Televisores,Oster,1636.22,1032.11,2021-12-15
+520,Fantasía Decoración Encuentran,Hogar,Decoración,Fantasía,196.49,146.47,2020-12-13
+521,LG Lavadoras Idea,Electrohogar,Lavadoras,LG,1253.33,817.65,2022-03-27
+522,Orange Iluminación Sé,Hogar,Iluminación,Orange,202.39,150.18,2022-03-27
+523,Red Bull Cervezas Natural,Bebidas,Cervezas,Red Bull,21.7,13.11,2022-09-04
+524,Esika Desodorante Nadie,Cuidado Personal,Desodorante,Esika,38.01,25.8,2021-10-03
+525,Nivea Crema Dental Color,Cuidado Personal,Crema Dental,Nivea,36.05,25.35,2020-04-24
+526,Glade Detergentes Soy,Limpieza,Detergentes,Glade,31.19,22.78,2022-01-07
+527,Tondero Conservas Anterior,Abarrotes,Conservas,Tondero,18.42,14.26,2022-05-18
+528,Colgate Cuidado Facial Realizar,Cuidado Personal,Cuidado Facial,Colgate,59.24,39.34,2020-07-03
+529,Cusqueña Aguas Busca,Bebidas,Aguas,Cusqueña,25.12,15.75,2021-09-24
+530,Fantasía Iluminación Ellos,Hogar,Iluminación,Fantasía,251.65,159.23,2021-08-08
+531,Tondero Pastas Enfermedad,Abarrotes,Pastas,Tondero,21.18,16.85,2020-11-21
+532,Rexona Crema Dental Campo,Cuidado Personal,Crema Dental,Rexona,81.61,64.05,2022-07-11
+533,Doña Clara Azúcar Contenido,Abarrotes,Azúcar,Doña Clara,18.66,12.33,2020-06-04
+534,Doña Clara Menestras Ésta,Abarrotes,Menestras,Doña Clara,18.47,14.51,2021-09-09
+535,Esika Shampoo Derecha,Cuidado Personal,Shampoo,Esika,27.92,20.96,2022-07-19
+536,Costeño Aceite Términos,Abarrotes,Aceite,Costeño,28.3,22.14,2022-08-28
+537,Sapolio Desinfectantes Sistemas,Limpieza,Desinfectantes,Sapolio,26.31,18.36,2021-04-17
+538,Cusqueña Jugos Problemas,Bebidas,Jugos,Cusqueña,40.81,26.38,2020-07-20
+539,Doña Clara Menestras Última,Abarrotes,Menestras,Doña Clara,23.85,17.19,2022-03-02
+540,Primor Azúcar Dicho,Abarrotes,Azúcar,Primor,15.03,10.3,2022-08-30
+541,Glade Detergentes Blanca,Limpieza,Detergentes,Glade,26.23,17.55,2022-04-27
+542,Poett Trapeadores Democracia,Limpieza,Trapeadores,Poett,25.71,19.6,2022-02-18
+543,Inca Kola Energizantes Española,Bebidas,Energizantes,Inca Kola,29.44,17.97,2020-10-31
+544,Fantasía Textil Hogar Todos,Hogar,Textil Hogar,Fantasía,125.39,87.99,2022-11-17
+545,Samsung Microondas Texto,Electrohogar,Microondas,Samsung,1602.95,1103.8,2021-08-12
+546,Ace Ambientadores Conocimiento,Limpieza,Ambientadores,Ace,40.01,27.43,2022-04-04
+547,Poett Desinfectantes Datos,Limpieza,Desinfectantes,Poett,54.13,41.72,2020-06-07
+548,LG Planchas Busca,Electrohogar,Planchas,LG,1959.85,1403.16,2021-12-29
+549,Inca Kola Licores Pero,Bebidas,Licores,Inca Kola,19.96,12.88,2020-01-18
+550,Primor Pastas Sería,Abarrotes,Pastas,Primor,9.94,6.63,2020-05-31
+551,Cusqueña Energizantes Momentos,Bebidas,Energizantes,Cusqueña,22.37,16.11,2021-07-22
+552,Ilko Iluminación Español,Hogar,Iluminación,Ilko,232.47,139.63,2020-03-29
+553,Uno Textil Hogar Segundo,Hogar,Textil Hogar,Uno,135.21,103.94,2020-06-10
+554,Pantene Desodorante Entrada,Cuidado Personal,Desodorante,Pantene,55.04,33.1,2022-11-21
+555,Doña Clara Arroz Noviembre,Abarrotes,Arroz,Doña Clara,14.96,11.93,2020-07-02
+556,Primor Arroz Expresión,Abarrotes,Arroz,Primor,9.05,6.99,2021-03-01
+557,Philips Microondas Mejores,Electrohogar,Microondas,Philips,2489.85,1700.98,2021-01-27
+558,Pilsen Jugos Diversos,Bebidas,Jugos,Pilsen,36.82,23.48,2022-03-26
+559,Basement Iluminación Primera,Hogar,Iluminación,Basement,225.07,144.98,2021-05-27
+560,Rexona Jabón Familia,Cuidado Personal,Jabón,Rexona,33.62,25.54,2020-03-22
+561,Uno Menaje Plazo,Hogar,Menaje,Uno,243.0,177.71,2021-12-04
+562,Valle Pastas Actual,Abarrotes,Pastas,Valle,24.45,17.78,2022-01-03
+563,Valle Pastas Señor,Abarrotes,Pastas,Valle,25.27,18.53,2020-05-16
+564,Oster Licuadoras Cantidad,Electrohogar,Licuadoras,Oster,1567.82,1173.72,2022-03-24
+565,Costeño Salsas Particular,Abarrotes,Salsas,Costeño,12.63,9.39,2021-04-07
+566,Esika Crema Dental Lo,Cuidado Personal,Crema Dental,Esika,91.18,57.86,2020-03-04
+567,Tondero Menestras Cuya,Abarrotes,Menestras,Tondero,17.39,10.86,2022-12-16
+568,Protex Shampoo Conseguir,Cuidado Personal,Shampoo,Protex,59.42,41.1,2022-05-04
+569,Basement Textil Hogar Ahí,Hogar,Textil Hogar,Basement,251.53,198.18,2020-01-09
+570,Inca Kola Vinos Ello,Bebidas,Vinos,Inca Kola,15.65,10.56,2020-03-07
+571,Uno Organización Libre,Hogar,Organización,Uno,120.51,78.68,2021-11-02
+572,Tondero Salsas Vez,Abarrotes,Salsas,Tondero,7.95,6.01,2020-12-03
+573,Coca-Cola Licores Modelo,Bebidas,Licores,Coca-Cola,16.06,11.98,2020-07-02
+574,Primor Azúcar Mayor,Abarrotes,Azúcar,Primor,19.39,13.81,2020-04-07
+575,Uno Organización Aquí,Hogar,Organización,Uno,211.32,158.42,2021-09-10
+576,Ilko Muebles Pequeños Económico,Hogar,Muebles Pequeños,Ilko,142.96,106.34,2022-09-02
+577,San Mateo Gaseosas Primera,Bebidas,Gaseosas,San Mateo,28.42,18.63,2022-06-22
+578,Primor Salsas Casa,Abarrotes,Salsas,Primor,14.47,9.13,2022-06-29
+579,Ariel Trapeadores Ser,Limpieza,Trapeadores,Ariel,24.76,15.52,2020-06-01
+580,Oster Planchas Además,Electrohogar,Planchas,Oster,1566.59,1018.65,2020-01-20
+581,Ripley Home Decoración Menor,Hogar,Decoración,Ripley Home,191.07,126.22,2022-06-20
+582,Ace Trapeadores Dios,Limpieza,Trapeadores,Ace,35.16,26.83,2021-11-14
+583,Cusqueña Cervezas P,Bebidas,Cervezas,Cusqueña,24.7,16.46,2021-07-28
+584,Philips Televisores Norte,Electrohogar,Televisores,Philips,1986.33,1258.37,2020-07-02
+585,Colgate Cuidado Facial Somos,Cuidado Personal,Cuidado Facial,Colgate,48.94,38.01,2021-08-09
+586,Valle Pastas Boca,Abarrotes,Pastas,Valle,14.62,10.17,2022-04-08
+587,Ariel Escobas Propio,Limpieza,Escobas,Ariel,26.13,20.39,2020-01-31
+588,Cusqueña Vinos Si,Bebidas,Vinos,Cusqueña,31.52,22.05,2022-11-05
+589,Pantene Desodorante Siendo,Cuidado Personal,Desodorante,Pantene,50.19,33.15,2022-04-23
+590,San Mateo Energizantes Naturaleza,Bebidas,Energizantes,San Mateo,28.56,19.59,2020-06-08
+591,Uno Textil Hogar Quien,Hogar,Textil Hogar,Uno,157.0,123.82,2022-03-04
+592,Nicolini Aceite Española,Abarrotes,Aceite,Nicolini,22.89,17.57,2021-04-22
+593,Costeño Pastas Ir,Abarrotes,Pastas,Costeño,19.83,14.06,2020-11-17
+594,Pantene Shampoo Dinero,Cuidado Personal,Shampoo,Pantene,49.53,31.77,2022-06-10
+595,Glade Trapeadores Saber,Limpieza,Trapeadores,Glade,27.56,21.06,2021-09-24
+596,Cusqueña Licores Padre,Bebidas,Licores,Cusqueña,20.72,14.75,2022-04-19
+597,Magia Trapeadores Europea,Limpieza,Trapeadores,Magia,42.43,32.52,2021-06-27
+598,Valle Menestras Servicios,Abarrotes,Menestras,Valle,19.95,12.29,2021-07-21
+599,Sapolio Limpiadores Permite,Limpieza,Limpiadores,Sapolio,55.61,41.02,2020-04-16
+600,Coca-Cola Energizantes Tarde,Bebidas,Energizantes,Coca-Cola,14.89,11.41,2020-02-16
+601,Basement Iluminación Producto,Hogar,Iluminación,Basement,197.55,122.13,2021-11-04
+602,Philips Planchas Además,Electrohogar,Planchas,Philips,1660.61,1201.49,2020-03-18
+603,Red Bull Energizantes He,Bebidas,Energizantes,Red Bull,33.77,24.5,2020-02-12
+604,Protex Cuidado Facial Cuya,Cuidado Personal,Cuidado Facial,Protex,44.2,29.0,2020-02-28
+605,Primor Arroz Si,Abarrotes,Arroz,Primor,25.84,17.78,2022-03-13
+606,Red Bull Jugos Viene,Bebidas,Jugos,Red Bull,26.28,20.81,2022-12-12
+607,Costeño Azúcar Campaña,Abarrotes,Azúcar,Costeño,13.21,9.61,2022-07-14
+608,Sony Licuadoras Curso,Electrohogar,Licuadoras,Sony,1925.4,1327.04,2020-09-11
+609,Ripley Home Organización Voy,Hogar,Organización,Ripley Home,208.08,151.76,2022-12-14
+610,Cusqueña Cervezas Habrá,Bebidas,Cervezas,Cusqueña,19.25,13.73,2021-05-05
+611,Tondero Pastas Apoyo,Abarrotes,Pastas,Tondero,18.46,13.32,2022-08-01
+612,Costeño Conservas Seis,Abarrotes,Conservas,Costeño,23.68,18.06,2020-10-14
+613,Ariel Limpiadores Ii,Limpieza,Limpiadores,Ariel,33.85,25.46,2021-10-07
+614,Protex Shampoo Información,Cuidado Personal,Shampoo,Protex,77.75,62.0,2020-03-02
+615,Primor Pastas Fuego,Abarrotes,Pastas,Primor,12.76,8.96,2021-08-17
+616,Pilsen Aguas Política,Bebidas,Aguas,Pilsen,26.25,20.83,2022-05-31
+617,Glade Trapeadores Mí,Limpieza,Trapeadores,Glade,19.97,14.0,2022-04-10
+618,Esika Crema Dental O,Cuidado Personal,Crema Dental,Esika,51.5,31.0,2020-03-31
+619,Uno Menaje Su,Hogar,Menaje,Uno,133.25,96.01,2022-01-24
+620,Ilko Menaje Derecho,Hogar,Menaje,Ilko,216.52,147.69,2020-06-17
+621,Samsung Licuadoras Voy,Electrohogar,Licuadoras,Samsung,1469.63,1154.79,2021-12-11
+622,Tondero Azúcar Investigación,Abarrotes,Azúcar,Tondero,10.54,7.47,2020-01-03
+623,Poett Escobas Población,Limpieza,Escobas,Poett,48.06,31.06,2020-05-07
+624,Cusqueña Aguas Meses,Bebidas,Aguas,Cusqueña,24.87,19.35,2022-03-09
+625,Ace Trapeadores Noviembre,Limpieza,Trapeadores,Ace,57.96,41.96,2022-02-05
+626,LG Refrigeradoras Real,Electrohogar,Refrigeradoras,LG,1432.8,937.84,2022-11-15
+627,Tondero Salsas Trabajo,Abarrotes,Salsas,Tondero,11.72,7.3,2020-07-08
+628,San Mateo Gaseosas Arriba,Bebidas,Gaseosas,San Mateo,27.93,22.29,2021-10-08
+629,Basement Textil Hogar Dónde,Hogar,Textil Hogar,Basement,146.06,105.61,2022-01-19
+630,Pantene Crema Dental Evitar,Cuidado Personal,Crema Dental,Pantene,38.87,27.7,2022-03-14
+631,Ilko Organización Ella,Hogar,Organización,Ilko,208.52,162.32,2021-05-28
+632,Doña Clara Azúcar Oro,Abarrotes,Azúcar,Doña Clara,14.15,8.63,2022-05-31
+633,Red Bull Jugos Tras,Bebidas,Jugos,Red Bull,19.64,13.81,2020-04-28
+634,Red Bull Jugos Sol,Bebidas,Jugos,Red Bull,24.95,15.46,2020-01-24
+635,Cusqueña Licores Ser,Bebidas,Licores,Cusqueña,28.63,19.13,2020-01-30
+636,Tondero Azúcar Iglesia,Abarrotes,Azúcar,Tondero,15.4,10.17,2022-02-20
+637,Pantene Shampoo Mucha,Cuidado Personal,Shampoo,Pantene,66.03,42.77,2022-12-02
+638,Doña Clara Menestras Hospital,Abarrotes,Menestras,Doña Clara,14.69,11.28,2020-02-11
+639,Nicolini Aceite Exterior,Abarrotes,Aceite,Nicolini,26.86,20.76,2021-12-29
+640,Nivea Jabón Tenemos,Cuidado Personal,Jabón,Nivea,47.08,31.31,2021-07-17
+641,Nicolini Azúcar Prueba,Abarrotes,Azúcar,Nicolini,21.74,14.25,2021-09-01
+642,Cusqueña Gaseosas Mañana,Bebidas,Gaseosas,Cusqueña,20.48,12.78,2022-09-10
+643,Colgate Jabón Empresa,Cuidado Personal,Jabón,Colgate,44.12,28.04,2020-12-09
+644,Oster Planchas Suelo,Electrohogar,Planchas,Oster,927.59,676.56,2020-01-26
+645,Valle Conservas Época,Abarrotes,Conservas,Valle,13.85,10.67,2022-01-03
+646,Philips Lavadoras Lejos,Electrohogar,Lavadoras,Philips,1252.0,769.86,2020-05-17
+647,Orange Muebles Pequeños Pequeño,Hogar,Muebles Pequeños,Orange,87.42,66.81,2021-07-15
+648,Valle Arroz Paso,Abarrotes,Arroz,Valle,20.54,12.79,2022-12-10
+649,Primor Azúcar Vez,Abarrotes,Azúcar,Primor,16.52,10.5,2021-09-07
+650,Oster Microondas Pie,Electrohogar,Microondas,Oster,1887.66,1160.77,2021-01-16
+651,Red Bull Energizantes Podrá,Bebidas,Energizantes,Red Bull,23.58,16.62,2021-02-07
+652,Protex Protección Solar Un,Cuidado Personal,Protección Solar,Protex,60.67,45.94,2021-09-21
+653,Red Bull Aguas Sangre,Bebidas,Aguas,Red Bull,16.98,11.91,2020-07-12
+654,Philips Televisores Relación,Electrohogar,Televisores,Philips,2225.07,1596.09,2020-02-25
+655,Ilko Organización Resultados,Hogar,Organización,Ilko,155.95,96.49,2020-03-22
+656,Glade Desinfectantes Todos,Limpieza,Desinfectantes,Glade,24.67,15.27,2021-05-20
+657,Doña Clara Conservas Afirmó,Abarrotes,Conservas,Doña Clara,12.74,9.31,2020-05-15
+658,Protex Crema Dental Guerra,Cuidado Personal,Crema Dental,Protex,50.51,33.95,2022-01-19
+659,Ilko Menaje Diario,Hogar,Menaje,Ilko,197.08,154.7,2022-11-01
+660,Primor Pastas Políticos,Abarrotes,Pastas,Primor,12.21,9.49,2020-11-04
+661,Red Bull Gaseosas Juicio,Bebidas,Gaseosas,Red Bull,29.96,22.48,2021-11-13
+662,San Mateo Energizantes Toda,Bebidas,Energizantes,San Mateo,26.37,19.86,2021-05-16
+663,Rexona Crema Dental Suficiente,Cuidado Personal,Crema Dental,Rexona,32.06,21.28,2022-06-06
+664,Fantasía Organización Doctor,Hogar,Organización,Fantasía,178.12,121.59,2021-04-21
+665,Rexona Protección Solar Propuesta,Cuidado Personal,Protección Solar,Rexona,64.29,46.02,2021-09-18
+666,Protex Jabón Aparece,Cuidado Personal,Jabón,Protex,31.13,24.41,2022-01-25
+667,Tondero Pastas Fondo,Abarrotes,Pastas,Tondero,18.5,14.14,2020-08-09
+668,San Mateo Cervezas Baja,Bebidas,Cervezas,San Mateo,15.38,11.41,2022-02-02
+669,Bosh Planchas Solo,Electrohogar,Planchas,Bosh,1252.78,816.4,2022-10-26
+670,San Mateo Cervezas Animales,Bebidas,Cervezas,San Mateo,23.17,16.01,2020-07-07
+671,Poett Trapeadores Supuesto,Limpieza,Trapeadores,Poett,53.99,36.73,2022-07-13
+672,Uno Textil Hogar Eran,Hogar,Textil Hogar,Uno,119.2,91.1,2021-12-18
+673,Colgate Jabón Fuentes,Cuidado Personal,Jabón,Colgate,61.83,40.19,2021-10-02
+674,Valle Salsas París,Abarrotes,Salsas,Valle,17.58,11.76,2022-10-18
+675,Glade Desinfectantes Tú,Limpieza,Desinfectantes,Glade,28.37,20.51,2021-05-07
+676,Esika Shampoo Propia,Cuidado Personal,Shampoo,Esika,33.04,22.71,2022-07-15
+677,Tondero Salsas Contenido,Abarrotes,Salsas,Tondero,9.06,6.92,2020-10-16
+678,Nivea Crema Dental Aún,Cuidado Personal,Crema Dental,Nivea,64.93,50.11,2022-08-16
+679,Coca-Cola Aguas Campo,Bebidas,Aguas,Coca-Cola,18.14,12.48,2021-04-05
+680,Pilsen Cervezas Fuerza,Bebidas,Cervezas,Pilsen,19.3,12.05,2020-12-16
+681,Nicolini Azúcar Aquellos,Abarrotes,Azúcar,Nicolini,19.36,12.75,2022-10-09
+682,Poett Limpiadores Resulta,Limpieza,Limpiadores,Poett,35.16,27.74,2022-06-27
+683,Nivea Jabón Joven,Cuidado Personal,Jabón,Nivea,60.46,39.96,2020-11-18
+684,Poett Limpiadores Cuales,Limpieza,Limpiadores,Poett,25.37,18.29,2021-08-17
+685,Nicolini Pastas Principios,Abarrotes,Pastas,Nicolini,11.63,8.26,2020-07-10
+686,Cusqueña Aguas Capacidad,Bebidas,Aguas,Cusqueña,38.19,25.98,2021-04-28
+687,Coca-Cola Aguas Has,Bebidas,Aguas,Coca-Cola,24.69,15.48,2021-07-12
+688,Coca-Cola Vinos Pasó,Bebidas,Vinos,Coca-Cola,36.18,24.3,2022-07-01
+689,Pantene Shampoo Compañía,Cuidado Personal,Shampoo,Pantene,62.31,39.59,2020-11-23
+690,Inca Kola Aguas Unión,Bebidas,Aguas,Inca Kola,27.83,17.87,2022-09-09
+691,Ripley Home Menaje Respecto,Hogar,Menaje,Ripley Home,137.48,104.59,2022-11-08
+692,Tondero Arroz Será,Abarrotes,Arroz,Tondero,22.55,17.17,2021-04-27
+693,Red Bull Licores Sea,Bebidas,Licores,Red Bull,24.74,16.03,2022-01-11
+694,Rexona Protección Solar Encuentro,Cuidado Personal,Protección Solar,Rexona,44.86,28.68,2021-01-01
+695,Nicolini Salsas Europa,Abarrotes,Salsas,Nicolini,17.69,11.57,2022-07-23
+696,Tondero Arroz Pasado,Abarrotes,Arroz,Tondero,13.06,9.85,2020-05-25
+697,Red Bull Licores Serie,Bebidas,Licores,Red Bull,20.7,14.36,2020-05-01
+698,Nivea Protección Solar Profesional,Cuidado Personal,Protección Solar,Nivea,25.83,19.85,2021-08-28
+699,Ilko Muebles Pequeños Y,Hogar,Muebles Pequeños,Ilko,212.04,128.56,2022-02-02
+700,Ariel Escobas Animales,Limpieza,Escobas,Ariel,28.28,19.32,2021-11-24
+701,Samsung Licuadoras Dios,Electrohogar,Licuadoras,Samsung,1714.17,1264.93,2022-06-19
+702,Ilko Iluminación Período,Hogar,Iluminación,Ilko,161.64,104.51,2022-05-06
+703,Ilko Organización Paciente,Hogar,Organización,Ilko,96.56,63.79,2020-03-21
+704,Sapolio Ambientadores Asunto,Limpieza,Ambientadores,Sapolio,33.54,25.19,2021-01-27
+705,Coca-Cola Vinos Menor,Bebidas,Vinos,Coca-Cola,31.06,20.55,2022-06-12
+706,Cusqueña Energizantes Cuarto,Bebidas,Energizantes,Cusqueña,25.45,18.22,2022-05-05
+707,Rexona Shampoo Capital,Cuidado Personal,Shampoo,Rexona,56.66,45.01,2020-07-08
+708,Cusqueña Energizantes Sala,Bebidas,Energizantes,Cusqueña,22.4,14.18,2020-07-26
+709,Inca Kola Licores Ser,Bebidas,Licores,Inca Kola,25.57,16.03,2020-07-25
+710,Tondero Azúcar Bastante,Abarrotes,Azúcar,Tondero,10.03,7.8,2022-05-14
+711,Basement Muebles Pequeños Misma,Hogar,Muebles Pequeños,Basement,115.41,75.45,2022-08-04
+712,Tondero Conservas Tan,Abarrotes,Conservas,Tondero,21.9,16.9,2020-05-14
+713,Sony Televisores Partir,Electrohogar,Televisores,Sony,1408.0,1041.67,2020-09-02
+714,Magia Ambientadores Ningún,Limpieza,Ambientadores,Magia,36.78,28.04,2020-11-19
+715,Costeño Salsas Derechos,Abarrotes,Salsas,Costeño,9.72,7.67,2022-10-29
+716,Valle Arroz Deja,Abarrotes,Arroz,Valle,14.98,11.43,2022-09-11
+717,Colgate Desodorante Mañana,Cuidado Personal,Desodorante,Colgate,39.77,24.44,2022-04-27
+718,Doña Clara Arroz Trabajo,Abarrotes,Arroz,Doña Clara,23.46,15.87,2021-04-30
+719,Philips Televisores Consecuencia,Electrohogar,Televisores,Philips,1635.14,1181.58,2020-08-04
+720,LG Refrigeradoras Acerca,Electrohogar,Refrigeradoras,LG,1851.71,1431.95,2022-06-13
+721,Rexona Jabón Estado,Cuidado Personal,Jabón,Rexona,47.96,36.27,2020-11-02
+722,Doña Clara Menestras Jorge,Abarrotes,Menestras,Doña Clara,14.77,9.63,2022-09-09
+723,Pilsen Energizantes Es,Bebidas,Energizantes,Pilsen,35.59,26.56,2021-03-21
+724,Samsung Televisores Queda,Electrohogar,Televisores,Samsung,1080.8,723.8,2021-11-01
+725,Sapolio Escobas Horas,Limpieza,Escobas,Sapolio,41.36,27.63,2022-06-24
+726,Inca Kola Energizantes Operación,Bebidas,Energizantes,Inca Kola,40.35,30.47,2020-01-01
+727,San Mateo Aguas Comercio,Bebidas,Aguas,San Mateo,25.05,17.2,2020-11-18
+728,Ariel Trapeadores Viaje,Limpieza,Trapeadores,Ariel,40.5,31.72,2022-10-18
+729,Tondero Menestras Rey,Abarrotes,Menestras,Tondero,21.31,16.52,2021-06-25
+730,Costeño Pastas Hemos,Abarrotes,Pastas,Costeño,13.38,8.61,2022-12-01
+731,Nicolini Arroz Respuesta,Abarrotes,Arroz,Nicolini,6.72,4.44,2022-08-19
+732,Ilko Textil Hogar Muy,Hogar,Textil Hogar,Ilko,141.52,105.6,2021-12-26
+733,Cusqueña Jugos Paciente,Bebidas,Jugos,Cusqueña,29.07,23.24,2020-05-25
+734,Orange Organización Dio,Hogar,Organización,Orange,138.94,86.56,2021-04-12
+735,Uno Muebles Pequeños Ex,Hogar,Muebles Pequeños,Uno,87.78,64.51,2022-01-29
+736,Tondero Pastas Seguir,Abarrotes,Pastas,Tondero,8.86,6.58,2021-07-31
+737,Tondero Arroz Rafael,Abarrotes,Arroz,Tondero,15.26,10.82,2020-08-24
+738,Tondero Pastas Explicó,Abarrotes,Pastas,Tondero,19.28,14.44,2021-10-11
+739,Protex Jabón Varias,Cuidado Personal,Jabón,Protex,34.16,23.42,2022-12-04
+740,Costeño Azúcar Octubre,Abarrotes,Azúcar,Costeño,10.38,8.28,2020-09-09
+741,Rexona Desodorante Línea,Cuidado Personal,Desodorante,Rexona,37.86,25.65,2021-11-23
+742,Samsung Refrigeradoras Viene,Electrohogar,Refrigeradoras,Samsung,1943.22,1412.79,2020-02-13
+743,Sapolio Limpiadores Estas,Limpieza,Limpiadores,Sapolio,17.28,13.65,2020-01-12
+744,Basement Muebles Pequeños Destino,Hogar,Muebles Pequeños,Basement,208.97,143.46,2021-05-11
+745,Colgate Protección Solar Políticos,Cuidado Personal,Protección Solar,Colgate,66.5,41.31,2022-11-23
+746,Red Bull Jugos Caso,Bebidas,Jugos,Red Bull,22.43,15.3,2022-03-06
+747,Philips Microondas Durante,Electrohogar,Microondas,Philips,1683.79,1134.89,2021-03-25
+748,Tondero Aceite Decir,Abarrotes,Aceite,Tondero,22.68,15.94,2022-08-14
+749,Sony Refrigeradoras D,Electrohogar,Refrigeradoras,Sony,2927.01,1879.21,2021-04-25
+750,Doña Clara Salsas Última,Abarrotes,Salsas,Doña Clara,15.46,9.66,2022-05-24
+751,Pilsen Cervezas Aquella,Bebidas,Cervezas,Pilsen,38.51,23.86,2022-12-21
+752,Pilsen Cervezas Importancia,Bebidas,Cervezas,Pilsen,31.27,20.75,2021-10-28
+753,Bosh Televisores Mujeres,Electrohogar,Televisores,Bosh,2131.76,1686.91,2022-03-09
+754,Fantasía Organización Algún,Hogar,Organización,Fantasía,197.5,139.61,2020-07-04
+755,Uno Menaje Fue,Hogar,Menaje,Uno,246.46,154.89,2021-07-09
+756,Rexona Shampoo Estuvo,Cuidado Personal,Shampoo,Rexona,52.83,41.24,2020-07-05
+757,Inca Kola Licores Importantes,Bebidas,Licores,Inca Kola,25.43,15.66,2022-06-24
+758,San Mateo Vinos Permite,Bebidas,Vinos,San Mateo,73.55,50.33,2020-12-29
+759,Uno Iluminación Cuestión,Hogar,Iluminación,Uno,95.11,71.72,2022-01-28
+760,Doña Clara Arroz Muchos,Abarrotes,Arroz,Doña Clara,20.46,13.97,2021-02-05
+761,Rexona Cuidado Facial Aquí,Cuidado Personal,Cuidado Facial,Rexona,68.87,42.63,2022-12-05
+762,Samsung Refrigeradoras Distintas,Electrohogar,Refrigeradoras,Samsung,1551.18,1129.75,2020-08-19
+763,Ilko Iluminación Cierto,Hogar,Iluminación,Ilko,171.05,122.43,2021-10-23
+764,Valle Azúcar Nivel,Abarrotes,Azúcar,Valle,13.36,9.59,2022-11-30
+765,Doña Clara Salsas Voy,Abarrotes,Salsas,Doña Clara,10.41,6.41,2021-04-05
+766,Rexona Cuidado Facial Luis,Cuidado Personal,Cuidado Facial,Rexona,34.92,27.93,2020-11-25
+767,San Mateo Energizantes Condiciones,Bebidas,Energizantes,San Mateo,30.19,22.97,2020-07-03
+768,Basement Organización Hoy,Hogar,Organización,Basement,154.31,107.51,2021-04-18
+769,Ariel Desinfectantes Somos,Limpieza,Desinfectantes,Ariel,25.38,19.41,2021-01-18
+770,Ace Ambientadores Hijo,Limpieza,Ambientadores,Ace,28.14,18.08,2021-06-21
+771,Coca-Cola Cervezas Historia,Bebidas,Cervezas,Coca-Cola,17.23,11.63,2021-01-16
+772,Orange Muebles Pequeños Ideas,Hogar,Muebles Pequeños,Orange,97.69,64.5,2021-05-16
+773,Primor Salsas Siquiera,Abarrotes,Salsas,Primor,22.68,17.35,2021-02-15
+774,Cusqueña Cervezas Del,Bebidas,Cervezas,Cusqueña,28.05,21.61,2020-10-21
+775,Sony Refrigeradoras Dolor,Electrohogar,Refrigeradoras,Sony,1590.58,1123.21,2022-06-21
+776,Ace Ambientadores Posición,Limpieza,Ambientadores,Ace,19.62,12.36,2022-12-09
+777,Orange Organización Norte,Hogar,Organización,Orange,187.07,140.79,2020-04-08
+778,Glade Desinfectantes Siguiente,Limpieza,Desinfectantes,Glade,35.95,23.68,2022-09-27
+779,Basement Decoración Imposible,Hogar,Decoración,Basement,175.78,120.44,2020-10-16
+780,Tondero Arroz Haya,Abarrotes,Arroz,Tondero,18.2,11.22,2021-01-23
+781,Ripley Home Decoración Española,Hogar,Decoración,Ripley Home,178.87,108.27,2022-09-13
+782,Tondero Conservas Octubre,Abarrotes,Conservas,Tondero,8.14,6.25,2021-08-08
+783,Coca-Cola Gaseosas Enero,Bebidas,Gaseosas,Coca-Cola,39.23,26.92,2022-01-21
+784,Nivea Jabón Llama,Cuidado Personal,Jabón,Nivea,49.26,35.01,2022-12-10
+785,Valle Aceite Europea,Abarrotes,Aceite,Valle,12.89,7.95,2021-08-07
+786,Doña Clara Azúcar Revolución,Abarrotes,Azúcar,Doña Clara,19.93,13.98,2021-07-11
+787,Colgate Jabón Causa,Cuidado Personal,Jabón,Colgate,37.1,27.68,2022-09-10
+788,Pilsen Energizantes Pueden,Bebidas,Energizantes,Pilsen,15.8,12.14,2022-03-24
+789,Cusqueña Aguas Carta,Bebidas,Aguas,Cusqueña,26.06,19.1,2020-10-26
+790,Fantasía Iluminación Varias,Hogar,Iluminación,Fantasía,116.46,74.06,2021-01-13
+791,Doña Clara Menestras Sin,Abarrotes,Menestras,Doña Clara,13.2,8.72,2022-04-08
+792,Esika Cuidado Facial Tras,Cuidado Personal,Cuidado Facial,Esika,44.16,28.56,2021-10-04
+793,Fantasía Muebles Pequeños Real,Hogar,Muebles Pequeños,Fantasía,180.56,139.02,2021-03-22
+794,Costeño Menestras Allá,Abarrotes,Menestras,Costeño,11.76,7.6,2020-10-19
+795,Doña Clara Arroz Todas,Abarrotes,Arroz,Doña Clara,10.93,8.51,2022-07-21
+796,Nicolini Menestras Ver,Abarrotes,Menestras,Nicolini,11.3,7.01,2020-10-20
+797,Bosh Planchas Si,Electrohogar,Planchas,Bosh,1070.6,670.12,2020-05-01
+798,Nicolini Azúcar Armas,Abarrotes,Azúcar,Nicolini,18.4,13.05,2022-03-19
+799,Esika Desodorante Algo,Cuidado Personal,Desodorante,Esika,63.93,50.61,2022-12-17
+800,Inca Kola Jugos Decisión,Bebidas,Jugos,Inca Kola,36.6,27.13,2020-02-22
