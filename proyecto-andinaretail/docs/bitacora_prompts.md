@@ -923,3 +923,286 @@ No omitir interpretaciones.
 No devolver únicamente código.
 Cada bloque debe estar acompañado de explicaciones en Markdown.
 El notebook debe tener calidad suficiente para ser presentado como informe universitario profesional.
+
+
+
+
+
+
+
+
+
+
+## 7.1 Registro de prompts utilizados
+
+### P-01 – Planificación
+
+**Parte:** Planificación
+
+**Objetivo del prompt:** Definir los problemas predictivos de regresión y clasificación a partir del diccionario de datos, identificando las variables objetivo, variables predictoras, tablas involucradas y posibles riesgos de *data leakage*.
+
+**Prompt utilizado:** Analiza el diccionario de datos adjunto de AndinaRetail S.A.C.
+
+El objetivo es construir el notebook 03_predictivo.ipynb.
+
+Propón:
+
+1. Un problema de regresión.
+2. Un problema de clasificación.
+
+Para cada uno indica:
+
+- variable objetivo
+- tablas necesarias
+- variables predictoras recomendadas
+- posibles variables con data leakage
+- justificación de negocio
+
+No generes código todavía.
+
+**Salida y validación:** Se definieron los problemas predictivos, las variables objetivo para cada modelo, las tablas necesarias para su construcción y las variables recomendadas para el entrenamiento. Además, se identificaron posibles riesgos de fuga de información antes de iniciar el desarrollo del notebook.
+
+---
+
+### P-02 – Construcción del dataset de regresión
+
+**Parte:** Ingeniería de datos
+
+**Objetivo del prompt:** Construir el conjunto de datos para el problema de regresión mediante la integración de las tablas necesarias y la generación de variables de ingeniería.
+
+**Prompt utilizado:** Implementa el dataset de regresión definido anteriormente.
+
+Crea un DataFrame llamado df_regresion.
+
+Realiza los joins necesarios entre las tablas disponibles.
+
+Genera las variables de ingeniería necesarias.
+
+Evita data leakage.
+
+No entrenes modelos todavía.
+
+**Salida y validación:** Se generó el DataFrame `df_regresion`, realizando los `merge` correspondientes entre las tablas del proyecto. Se verificó la consistencia de las uniones, la cantidad de registros obtenidos y la correcta creación de las variables derivadas.
+
+---
+
+### P-03 – Preprocesamiento del dataset de regresión
+
+**Parte:** Preparación de datos
+
+**Objetivo del prompt:** Preparar el conjunto de datos para el entrenamiento de modelos de regresión aplicando las transformaciones necesarias.
+
+**Prompt utilizado:** Prepara df_regresion para Machine Learning.
+
+Incluye:
+
+- separación X e y
+- variables numéricas y categóricas
+- imputación
+- OneHotEncoder
+- StandardScaler
+- ColumnTransformer
+- Pipeline
+- train_test_split(test_size=0.2, random_state=42)
+
+No entrenes modelos todavía.
+
+**Salida y validación:** Se implementó el preprocesamiento mediante un Pipeline de scikit-learn, incluyendo imputación de valores faltantes, codificación de variables categóricas, escalamiento de variables numéricas y partición de los datos en entrenamiento y prueba.
+
+---
+
+### P-04 – Entrenamiento de modelos de regresión
+
+**Parte:** Modelado predictivo
+
+**Objetivo del prompt:** Entrenar y comparar un modelo base y un modelo avanzado para el problema de regresión.
+
+**Prompt utilizado:** Usando el Pipeline creado, entrena únicamente:
+
+- LinearRegression
+- RandomForestRegressor
+
+Evalúa con:
+
+- MAE
+- RMSE
+- R²
+
+Genera tabla comparativa y selecciona el mejor modelo.
+
+**Salida y validación:** Se entrenaron los modelos **LinearRegression** y **RandomForestRegressor**, evaluándolos mediante las métricas MAE, RMSE y R². Los resultados fueron comparados para seleccionar el modelo con mejor desempeño.
+
+---
+
+### P-05 – Optimización del modelo de regresión
+
+**Parte:** Optimización
+
+**Objetivo del prompt:** Optimizar el mejor modelo de regresión mediante búsqueda de hiperparámetros.
+
+**Prompt utilizado:** Optimiza únicamente el mejor modelo de regresión.
+
+Usa RandomizedSearchCV con:
+
+- validación cruzada de 5 folds
+- random_state=42
+
+Muestra comparación antes y después.
+
+**Salida y validación:** Se aplicó RandomizedSearchCV con validación cruzada para encontrar la mejor combinación de hiperparámetros y se comparó el rendimiento del modelo antes y después de la optimización.
+
+---
+
+### P-06 – Interpretación del modelo de regresión
+
+**Parte:** Interpretabilidad
+
+**Objetivo del prompt:** Analizar la importancia de las variables utilizadas por el mejor modelo de regresión.
+
+**Prompt utilizado:** Analiza el mejor modelo de regresión.
+
+Genera:
+
+- Feature Importance
+- SHAP si aplica
+
+Explica las variables más influyentes.
+
+**Salida y validación:** Se generó el análisis de importancia de variables mediante Feature Importance y, cuando fue compatible, SHAP. Finalmente, se interpretó el impacto de las variables más relevantes sobre la predicción de la demanda.
+
+---
+
+### P-07 – Construcción del dataset de clasificación
+
+**Parte:** Ingeniería de datos
+
+**Objetivo del prompt:** Construir el conjunto de datos para el problema de clasificación incorporando la variable objetivo `cliente_inactivo`.
+
+**Prompt utilizado:** Implementa el dataset de clasificación.
+
+Objetivo:
+
+Crear cliente_inactivo:
+1 = cliente sin compras durante los últimos 90 días.
+0 = cliente activo.
+
+Genera variables agregadas por cliente:
+
+- frecuencia de compra
+- gasto total
+- ticket promedio
+- última compra
+- días de inactividad
+- canal
+- segmento
+- características demográficas
+
+Evita data leakage.
+
+No entrenes modelos todavía.
+
+**Salida y validación:** Se creó el DataFrame `df_clasificacion`, generando la variable objetivo de clasificación y las variables agregadas de comportamiento de compra por cliente. Se verificó la consistencia de la información obtenida.
+
+---
+
+### P-08 – Preprocesamiento del dataset de clasificación
+
+**Parte:** Preparación de datos
+
+**Objetivo del prompt:** Preparar el conjunto de datos para el entrenamiento de modelos de clasificación.
+
+**Prompt utilizado:** Prepara df_clasificacion para Machine Learning.
+
+Incluye:
+
+- separación X e y
+- imputación
+- OneHotEncoder
+- StandardScaler
+- ColumnTransformer
+- Pipeline
+- train_test_split(test_size=0.2, random_state=42)
+
+**Salida y validación:** Se implementó el Pipeline de preprocesamiento incluyendo imputación de valores faltantes, codificación de variables categóricas, escalamiento de variables numéricas y división de los datos en entrenamiento y prueba.
+
+---
+
+### P-09 – Entrenamiento de modelos de clasificación
+
+**Parte:** Modelado predictivo
+
+**Objetivo del prompt:** Entrenar y comparar un modelo base y un modelo avanzado para el problema de clasificación.
+
+**Prompt utilizado:** Entrena únicamente:
+
+- LogisticRegression
+- RandomForestClassifier
+
+Evalúa:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC AUC
+- Matriz de confusión
+
+Genera tabla comparativa.
+
+**Salida y validación:** Se entrenaron los modelos **LogisticRegression** y **RandomForestClassifier**, evaluándolos mediante Accuracy, Precision, Recall, F1-score, ROC AUC y matriz de confusión. Posteriormente se seleccionó el modelo con mejor desempeño.
+
+---
+
+### P-10 – Optimización del modelo de clasificación
+
+**Parte:** Optimización
+
+**Objetivo del prompt:** Optimizar el mejor modelo de clasificación mediante búsqueda de hiperparámetros.
+
+**Prompt utilizado:** Optimiza el mejor clasificador con RandomizedSearchCV.
+
+Usa validación cruzada de 5 folds y random_state=42.
+
+Compara resultados antes y después.
+
+**Salida y validación:** Se ejecutó RandomizedSearchCV sobre el mejor clasificador, comparando las métricas obtenidas antes y después de la optimización para validar la mejora del modelo.
+
+---
+
+### P-11 – Interpretación del modelo de clasificación
+
+**Parte:** Interpretabilidad
+
+**Objetivo del prompt:** Analizar las variables que influyen en la probabilidad de que un cliente se vuelva inactivo.
+
+**Prompt utilizado:** Analiza el mejor clasificador.
+
+Genera:
+
+- Feature Importance
+- SHAP si aplica
+
+Explica qué variables aumentan la probabilidad de churn.
+
+**Salida y validación:** Se generó el análisis de importancia de variables mediante Feature Importance y SHAP cuando fue compatible con el modelo. Finalmente, se interpretaron los factores con mayor impacto sobre la predicción de clientes inactivos.
+
+---
+
+### P-12 – Conclusiones
+
+**Parte:** Documentación
+
+**Objetivo del prompt:** Redactar las conclusiones técnicas y las recomendaciones de negocio derivadas del análisis predictivo.
+
+**Prompt utilizado:** Redacta las conclusiones del notebook.
+
+Incluye:
+
+- comparación de modelos
+- selección del mejor modelo
+- interpretación de variables
+- recomendaciones de negocio
+
+No inventes resultados.
+
+**Salida y validación:** Se generó la sección de conclusiones del notebook, incluyendo la comparación de modelos, la selección de los mejores algoritmos, la interpretación de las variables más importantes y las recomendaciones orientadas a la toma de decisiones de AndinaRetail S.A.C.
