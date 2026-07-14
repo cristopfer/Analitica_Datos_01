@@ -1206,3 +1206,79 @@ Incluye:
 No inventes resultados.
 
 **Salida y validación:** Se generó la sección de conclusiones del notebook, incluyendo la comparación de modelos, la selección de los mejores algoritmos, la interpretación de las variables más importantes y las recomendaciones orientadas a la toma de decisiones de AndinaRetail S.A.C.
+
+---
+
+## 8. Registro de prompts utilizados — Notebook 04 Prescriptivo
+
+### P-01 – Planificación del módulo prescriptivo
+
+**Parte:** Planificación
+
+**Objetivo del prompt:** Definir los modelos de optimización a formular para el Notebook 04, identificando los problemas de negocio relevantes, las variables de decisión, las funciones objetivo y las restricciones de cada modelo.
+
+**Prompt utilizado:** A mi me tocó formular y resolver modelos prescriptivos de optimización que mejoren objetivos específicos del negocio. Analiza el proyecto AndinaRetail y propón qué modelos de optimización puedo implementar con los datos disponibles, indicando para cada uno: problema de negocio, tipo de modelo (LP/ILP), variable de decisión, función objetivo y restricciones principales.
+
+**Salida y validación:** Se identificaron tres modelos de optimización alineados con los problemas detectados en el análisis descriptivo: liquidación de exceso de inventario (LP), redistribución del presupuesto de descuentos por ciudad (LP) y selección óptima de clientes para campaña anti-churn (ILP Knapsack 0-1).
+
+---
+
+### P-02 – Configuración del entorno y rama de trabajo
+
+**Parte:** Configuración
+
+**Objetivo del prompt:** Crear una rama de trabajo propia en el repositorio e importar los datos necesarios desde la rama de otro integrante del equipo.
+
+**Prompt utilizado:** Hagámoslo en una nueva rama, usemos la opción A (git checkout origin/christopherpb -- proyecto-andinaretail/datos/).
+
+**Salida y validación:** Se creó la rama `daniel-prescriptivo` a partir de `main`. Se importaron los archivos de datos (`ventas.csv`, `inventario.csv`, `clientes.csv`, `productos.csv`, `tiendas.csv`) desde la rama `christopherpb` mediante `git checkout`, sin afectar ninguna otra rama del proyecto.
+
+---
+
+### P-03 – Modelo 1: Liquidación óptima de exceso de inventario (LP)
+
+**Parte:** Modelado prescriptivo
+
+**Objetivo del prompt:** Formular y resolver un modelo de Programación Lineal que maximice el ahorro en costos de almacenamiento identificando las unidades excedentes a liquidar por producto y tienda, garantizando un nivel de cobertura mínimo.
+
+**Prompt utilizado:** Implementa el Modelo 1 de liquidación de exceso de inventario. El modelo debe maximizar el ahorro en costos de almacenamiento. Las variables de decisión son las unidades a liquidar por ítem. Las restricciones son: no liquidar más del exceso calculado (stock actual menos 2 meses de cobertura), no superar el 30% del stock total por tienda, y mantener siempre la cobertura mínima de seguridad. Usa PuLP con solver CBC.
+
+**Salida y validación:** Se formuló y resolvió el modelo LP con PuLP. El solver CBC encontró la solución óptima, identificando las unidades a liquidar por categoría y ciudad. Se verificó que la cobertura mínima post-liquidación se respetó en todos los ítems. Se generaron las visualizaciones de ahorro por categoría y comparativa de stock actual versus stock óptimo.
+
+---
+
+### P-04 – Modelo 2: Redistribución óptima del presupuesto de descuentos (LP)
+
+**Parte:** Modelado prescriptivo
+
+**Objetivo del prompt:** Formular y resolver un modelo de Programación Lineal que maximice el margen bruto total redistribuyendo el presupuesto de descuentos entre las cinco ciudades, con una restricción especial para Trujillo.
+
+**Prompt utilizado:** Implementa el Modelo 2 de optimización de descuentos. El modelo debe maximizar el margen bruto total. Las variables de decisión son las tasas de descuento por ciudad. Las restricciones son: presupuesto total reducido un 10% respecto al histórico, límites inferior y superior por ciudad (50% y 150% del descuento actual), y un techo de 12% para Trujillo como política de rescate de margen. Usa PuLP.
+
+**Salida y validación:** El modelo LP encontró la solución óptima asignando una tasa de descuento diferenciada por ciudad. Se verificó que Trujillo no supera el 12% establecido como techo de rescate. Se generó la tabla comparativa de descuento actual versus óptimo y la mejora de margen por ciudad, junto con las visualizaciones correspondientes.
+
+---
+
+### P-05 – Modelo 3: Selección óptima de clientes anti-churn (ILP — Knapsack 0-1)
+
+**Parte:** Modelado prescriptivo
+
+**Objetivo del prompt:** Formular y resolver un modelo de Programación Lineal Entera (ILP) tipo Knapsack 0-1 que seleccione el subconjunto de clientes en riesgo de churn que maximiza el ingreso esperado recuperado dado un presupuesto de campaña de S/. 10,000.
+
+**Prompt utilizado:** Implementa el Modelo 3 anti-churn como un ILP Knapsack 0-1. Las variables de decisión son binarias: 1 si el cliente es seleccionado para la campaña, 0 si no. La función objetivo maximiza el ingreso esperado recuperado (score_churn × CLV × 30%). Las restricciones son: presupuesto total de S/. 10,000, máximo 500 clientes contactables, y solo candidatos con score_churn >= 0.5 y CLV > 0. Resuelve con PuLP CBC.
+
+**Salida y validación:** El solver ILP encontró la solución óptima seleccionando el subconjunto de clientes que maximiza el retorno esperado. Se calculó el ROI estimado de la campaña y se generó la lista priorizada de clientes. Se produjeron las visualizaciones del mapa de riesgo versus valor y el ingreso esperado por segmento.
+
+---
+
+### P-06 – Dashboard ejecutivo y conclusiones
+
+**Parte:** Documentación y presentación
+
+**Objetivo del prompt:** Construir un panel resumen que consolide los resultados de los tres modelos y redactar las conclusiones técnicas y de negocio del notebook.
+
+**Prompt utilizado:** Genera el dashboard ejecutivo con los KPIs principales de los tres modelos y redacta las conclusiones técnicas y de negocio para cada modelo y para el impacto combinado.
+
+**Salida y validación:** Se generó el dashboard visual con los tres indicadores clave (ahorro en almacenamiento, mejora de margen bruto y ROI de campaña anti-churn). Se redactaron las conclusiones por modelo y el resumen del impacto combinado de la analítica prescriptiva en las operaciones de AndinaRetail S.A.C.
+
+---
