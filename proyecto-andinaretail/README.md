@@ -2,7 +2,7 @@
 
 | Rol | Integrante(s) |
 |------|----------------|
-| Líder de proyecto / Data PM | Ames Camayo, Daniel |
+| Líder de proyecto / Data PM | Guia Muñoz, Wilfredo |
 | Ingeniero de datos | Perez Bazan, Eysen Christopher |
 | Analista estadístico / descriptivo | Perez Bazan, Eysen Christopher |
 | Científico de datos | Guia Muñoz, Wilfredo y Ames Camayo, Daniel |
