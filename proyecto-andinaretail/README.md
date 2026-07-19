@@ -1,11 +1,11 @@
 # Caso Integrador de Analítica de Datos - AndinaRetail S.A.C.
 
-| Rol | Integrante(s) |
+| Rol | Integrantes |
 |------|----------------|
 | Líder de proyecto / Data PM | Guia Muñoz, Wilfredo |
 | Ingeniero de datos | Perez Bazan, Eysen Christopher |
 | Analista estadístico / descriptivo | Perez Bazan, Eysen Christopher |
-| Científico de datos | Guia Muñoz, Wilfredo y Ames Camayo, Daniel |
+| Científico de datos | Guia Muñoz, Wilfredo / Ames Camayo, Daniel |
 | Analista de optimización / BI | Huaman Ortiz, Emerson Raul |
 
 ## Guía de ejecución
